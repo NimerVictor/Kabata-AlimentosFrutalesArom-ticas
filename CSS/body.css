@@ -1,0 +1,14 @@
+/*
+
+Carousel
+
+
+*/
+body {
+    font-family: Arial, sans-serif;   
+}
+
+.carousel-inner img {
+    height: 35em;
+    width: 100%;
+}
