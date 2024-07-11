@@ -5,19 +5,37 @@ Header
 */
 .navbar{
     background-color: #fff;
-    height: 80px;
-    margin: 20px;
+    height: 20px;
+    margin: 13px;
     border-radius: 16px;
-    padding: 2rem;
+    padding: 3rem;
 }
-@media (max-width:950px){
+.banner{
+    margin-top: 120px;
+    margin-left: 13px;
+    margin-right: 13px;
+
+}
+.navbar .container-lg{
+    margin-top: -10px;
+}
+@media (max-width:991px){
     .navbar{
         background-color: #fff;
-        height: 80px;
-        margin-top: 30px;
-        padding: 0px;
+        height: 0px;
+        margin: 0px;
+        padding: 1.75em;
        
     }
+   .navbar .container-lg{
+        margin-top: -20px;
+   }
+    .banner{
+        margin-top: 60px;
+        height: 0px;
+        width: 100%;
+    }
+
 }
 @media (max-width:500px){
     .navbar .container{
@@ -27,16 +45,27 @@ Header
         padding: 0px;       
        
     }
-    .hero-section{
-        margin-top: 950px;
-    
+    .navbar .container-lg{
+        margin-top: -20px;
+   }
+    .banner{
+        margin-top: 60px;
+        height: 0px;
+        width: 100%;
     }
+    #NavLogo{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+.CarouselImagenes{
+    height: 1rem;
 }
 #NavLogo{
     background-color: #fff;
-    height: 50%;
-    margin: 20px;
-    border-radius: 5px;
+    margin: 0px;
+    border-radius: 10px;
     padding: 0;
 }
 .navbar-brand{
@@ -44,6 +73,10 @@ Header
     color: #009979;
     font-size: 20px;
     transition: 0.3s color;
+    margin: 0px;
+    padding: 0px;
+    width: 13%;
+
 }
 .Login-button {
     background-color: #009979;

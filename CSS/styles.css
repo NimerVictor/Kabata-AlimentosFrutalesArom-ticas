@@ -1,6 +1,28 @@
 @import url("../CSS/header.css");
 @import url("../CSS/body.css");
-.hero-section{
-    margin-top: 150px;
-
+  /* Fonts */
+  :root {
+    --body-font: 'Chilanka', cursive;
+    --heading-font: 'Chilanka', cursive;
+    --secondary-font: 'Montserrat', sans-serif;
+  }
+  body {
+    --bs-link-color: #333;
+    --bs-link-hover-color: #333;
+  
+    --bs-link-color-rgb: 40, 40, 40;
+    --bs-link-hover-color-rgb: 0, 0, 0;
+  
+    /* --bs-link-color: #DEAD6F;
+    --bs-link-hover-color: #DEAD6F; */
+  
+    --bs-light-rgb: 248, 248, 248;
+  
+    --bs-font-sans-serif: 'chilanka', cursive;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 2;
+    --bs-body-color: #41403E;
 }
+  
