@@ -1,5 +1,6 @@
 @import url("../CSS/header.css");
 @import url("../CSS/body.css");
+@import url("../CSS/footer.css");
   /* Fonts */
   :root {
     --body-font: 'Chilanka', cursive;

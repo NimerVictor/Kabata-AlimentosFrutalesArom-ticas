@@ -1,0 +1,41 @@
+.footer{
+    color: white;
+    padding-bottom: 40px;
+    border-top: double;
+    border-color: #009979;
+}
+
+.info-footer p{
+    padding-left: 30px;
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #009979;
+    text-decoration: none;
+}
+
+.caja {
+    margin: 0 auto;
+}
+
+.info-footer a{
+    padding-left: 30px;
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #666777;
+    text-decoration: none;
+
+}
+
+.info-footer a:hover{
+    color: #009979;
+    text-decoration: none;
+}
+
+.logo-footer{
+    width: 90%;
+    height: 80%;
+    padding: 50px;
+    display: inline;
+}
