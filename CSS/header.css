@@ -6,12 +6,12 @@ Header
 .navbar{
     background-color: #fff;
     height: 20px;
-    margin: 13px;
+    margin: 0px;
     border-radius: 16px;
     padding: 3rem;
 }
 .banner{
-    margin-top: 120px;
+    margin-top: 110px;
     margin-left: 13px;
     margin-right: 13px;
 
@@ -21,43 +21,51 @@ Header
 }
 @media (max-width:991px){
     .navbar{
-        background-color: #fff;
+
         height: 0px;
         margin: 0px;
-        padding: 1.75em;
+        padding: 2.50em;
        
     }
    .navbar .container-lg{
-        margin-top: -20px;
+        margin-top: -30px;
    }
     .banner{
-        margin-top: 60px;
+        margin-top: 80px;
         height: 0px;
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    
     }
 
 }
 @media (max-width:500px){
-    .navbar .container{
-        background-color: #fff;
+    .navbar .container-lg{
         height: 0px;
         margin: 0px;
         padding: 0px;       
        
     }
+    
     .navbar .container-lg{
         margin-top: -20px;
    }
     .banner{
-        margin-top: 60px;
+        margin-top: 80px;
         height: 0px;
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    
     }
     #NavLogo{
         height: 100%;
         width: 100%;
+        border-radius: 0px;
+     
     }
-    
+ 
 }
 .CarouselImagenes{
     height: 1rem;

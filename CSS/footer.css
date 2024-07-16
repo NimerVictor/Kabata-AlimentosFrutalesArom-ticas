@@ -1,8 +1,11 @@
 .footer{
-    color: white;
+    color: #666777;
     padding-bottom: 40px;
-    border-top: double;
+    border-top: hidden;
     border-color: #009979;
+    margin-top: 50px;
+    background-color: #fff;
+    
 }
 
 .info-footer p{
@@ -24,7 +27,8 @@
     font-size: 15px;
     color: #666777;
     text-decoration: none;
-
+   text-align: justify;
+  
 }
 
 .info-footer a:hover{
@@ -33,7 +37,7 @@
 }
 
 .logo-footer{
-    width: 100%;
+    width: 125%;
     height: 100%;
     padding: 50px;
     display: inline;

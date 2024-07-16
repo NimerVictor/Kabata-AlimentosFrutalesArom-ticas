@@ -5,7 +5,9 @@ Carousel
 
 */
 body {
-    background-color: #f8f9fa; /* Fondo claro */
+    /* background-color: #81866b;*/
+    /* Fondo claro */
+    background-color: #fff;
 }
 
 .carousel-inner img {
@@ -15,16 +17,25 @@ body {
 
 
 
-.card{
+.card {
     border: none;
     border-radius: 0;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: #fff;
+
 }
 
-.carousel-inner{
+.cardCarousel .carousel-inner {
     padding: 1em;
 }
-.carousel-control-prev ,.carousel-control-next{
+
+.cardCarousel h1 {
+    color: #333;
+    font-weight: bolder;
+}
+
+.cardCarousel .carousel-control-prev,
+.carousel-control-next {
     background-color: #e1e1e1;
     width: 6vh;
     height: 6vh;
@@ -33,75 +44,73 @@ body {
     transform: translateY(-50%);
 }
 
-.carousel-control-prev span ,.carousel-control-next span{
+.cardCarousel .carousel-control-prev span,
+.carousel-control-next span {
     width: 1.5rem;
     height: 1.5rem;
 }
 
 @media screen and (Min-width: 568px) {
-    .cards-wrapper{
+    .cards-wrapper {
         display: flex;
     }
+
     .card {
         margin: 0 .5em;
-        width: calc(100% / 3);
+        width: calc(100% /3);
+
     }
-    .image-wrapped{
-        height: 22vw;
+
+    .image-wrapped {
+        height: 15vw;
         margin: 0 auto;
         /*display: flex;
         justify-content: center;
         align-items: center;*/
     }
+
 }
 
-@media screen and (Max-width: 567px){
-    .card:not(:first-child){
+
+@media screen and (Max-width: 567px) {
+    .card:not(:first-child) {
         display: none;
     }
-    
-    
+
+
+
 }
 
 
-.image-wrapped img{
+.image-wrapped img {
     max-width: 100%;
     max-height: 100%;
 }
-
-
-
 
 /*
 
 Cuadro principal s
 
 */
-/* 
-@media (max-width:500px){
-    .card {
-        margin-top: 600px;
-        width: 50%;
-        border: 1px solid #ddd;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-
-    }
-    .card-item{
-        width:25px;
-        border: 1px solid #ddd;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-        margin-bottom: 60px;
-    }
-
+#card1 {
+    margin-top: 50px;
+    padding: 0px;
+    width: 100%;
+    border: 1px;
+    border-style: hidden;
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    left: 50px;
 }
-.card:hover {
+
+#card1:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.card-header {
+#card1-header {
     font-size: 1rem;
     font-weight: bold;
     background-color: #fff;
@@ -109,15 +118,230 @@ Cuadro principal s
 
 }
 
-.card-title {
+#card1-title {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.card-price {
+#card1-price {
     font-size: 1.5rem;
     color: #000;
     font-weight: bold;
-}*/
+}
 
+.card-body h5,
+p {
+    text-align: center;
+}
+
+.card-body .btn {
+    display: flex;
+    justify-content: center;
+    background-color: #3d8650;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.cardCarousel .carousel-inner {
+    width: 100%;
+    margin-top: -200px;
+}
+
+.cardCarousel {
+    margin-top: 50px;
+    margin-bottom: -175px;
+}
+
+.cardCarousel .carousel-inner .img {
+    width: 225px;
+}
+
+.cardCarousel .carousel-inner img {
+    margin-top: 15px;
+}
+
+@media (min-width:1000px) {
+    .card {
+        height: 375px;
+    }
+
+    .cardCarousel .carousel-inner {
+        width: 100%;
+        margin-top: -250px;
+
+    }
+}
+
+@media (max-width:991px) and (min-width: 601px) {
+    .cardCarousel {
+        margin-top: 600px;
+        padding: 0px;
+        margin-bottom: -200px;
+    }
+
+    #card1 {
+        margin-top: 0px;
+        width: 100%;
+
+    }
+
+    .cardCarousel .carousel-inner {
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .cardCarousel .carousel-inner .img {
+        width: 100%;
+    }
+
+    .cardCarousel .carousel-inner img {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:600px) {
+    .cardCarousel {
+        margin-top: 600px;
+        margin-bottom: 0px;
+    }
+
+    .cardCarousel .carousel-inner {
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .cardCarousel .carousel-inner .img {
+        width: 275px;
+        height: 100%;
+        margin-bottom: -125px;
+    }
+
+    .cardCarousel .carousel-inner img {
+        margin-top: 0px;
+    }
+
+    .card {
+        height: 400px;
+    }
+
+    .cardCarousel .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:769px) {}
+
+.cardCarousel .carousel-control-prev {
+    margin-top: -100px;
+}
+
+.cardCarousel .carousel-control-next {
+    margin-top: -100px;
+}
+
+/*
+Procesadora KÁBATA CUADRO
+
+.contenedorPrincipal {
+    margin-top: -100px;
+    margin-bottom: 200px;
+    color: #fff;
+    background-color: #3d8650;
+    padding: 10px;
+
+    max-width: 100%;
+}
+
+.contenedorSecundario {
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+}
+
+.contenedorTerciario {
+    position: relative;
+    top: -80px;
+    left: 20px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    width: 50%;
+
+}
+
+.contenedorTerciario img {
+    width: 50%;
+   
+}
+.contenedorTerciario img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:769px) {
+    .contenedorPrincipal {
+        margin-top: 0px;
+    }
+
+    .contenedorSecundario {
+        margin-top: 170px;
+        width: 100%;
+    }
+
+    .contenedorTerciario {
+        position: relative;
+        top: -500px;
+        left: 0px;
+    }
+
+    .contenedorTerciario img {
+        width: 100%;
+
+    }
+}*/
+.kabataCuadro .container-fluid {
+    color: #fff;
+    background-color: #3d8650;
+    padding-bottom: -200px;
+    margin-top: -100px;
+    width: 100%;
+}
+
+#contenedorTerciario {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    max-width: 100%;
+}
+
+@media (max-width:991px) and (max-width:770px) {
+    .kabataCuadro .container-fluid {
+        margin-top: 150px;
+    }
+
+    #contenedorTerciario {
+        position: relative;
+        top: -75px;
+
+    }
+
+}
+@media (max-width:767px) {
+    #contenedorTerciario {
+       width: 70%;
+       position: relative;
+       top: 50px;
+        left: 100px;
+
+    }
+    .kabataCuadro .container-fluid {
+        padding-bottom: -200px;
+        margin-top: -220px;
+        width: 100%;
+    }
+    
+  
+}
