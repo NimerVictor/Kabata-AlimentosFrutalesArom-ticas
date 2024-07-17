@@ -5,9 +5,9 @@ Carousel
 
 */
 body {
-    /* background-color: #81866b;*/
+    background-color: #fff /*#81866b*/;
     /* Fondo claro */
-    background-color: #fff;
+ 
 }
 
 .carousel-inner img {
@@ -87,11 +87,11 @@ body {
     max-height: 100%;
 }
 
-/*
+/************************************************
 
 Cuadro principal s
 
-*/
+*************************************************/
 #card1 {
     margin-top: 50px;
     padding: 0px;
@@ -151,7 +151,7 @@ p {
 
 .cardCarousel {
     margin-top: 50px;
-    margin-bottom: -175px;
+    margin-bottom: 20px;
 }
 
 .cardCarousel .carousel-inner .img {
@@ -231,7 +231,14 @@ p {
         height: 100%;
     }
 }
-
+@media (max-width:429px) and (min-width:400px){
+    .card {
+        height: 450px;
+    }
+    .cardCarousel {
+        margin-bottom: 75px;
+    }
+}
 @media (max-width:769px) {}
 
 .cardCarousel .carousel-control-prev {
@@ -242,84 +249,41 @@ p {
     margin-top: -100px;
 }
 
-/*
+/*****************************************
 Procesadora KÁBATA CUADRO
-
-.contenedorPrincipal {
-    margin-top: -100px;
-    margin-bottom: 200px;
-    color: #fff;
-    background-color: #3d8650;
-    padding: 10px;
-
-    max-width: 100%;
-}
-
-.contenedorSecundario {
-    margin-top: 20px;
-    width: 50%;
-    float: left;
-}
-
-.contenedorTerciario {
-    position: relative;
-    top: -80px;
-    left: 20px;
-    border: none;
-    border-radius: 0;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    width: 50%;
-
-}
-
-.contenedorTerciario img {
-    width: 50%;
-   
-}
-.contenedorTerciario img:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width:769px) {
-    .contenedorPrincipal {
-        margin-top: 0px;
-    }
-
-    .contenedorSecundario {
-        margin-top: 170px;
-        width: 100%;
-    }
-
-    .contenedorTerciario {
-        position: relative;
-        top: -500px;
-        left: 0px;
-    }
-
-    .contenedorTerciario img {
-        width: 100%;
-
-    }
-}*/
+******************************************/
 .kabataCuadro .container-fluid {
     color: #fff;
-    background-color: #3d8650;
+   background-color: #3d8650;
     padding-bottom: -200px;
-    margin-top: -100px;
+    margin-top: -150px;
     width: 100%;
+    padding-bottom: -500px;
+    height: 20em ;
 }
 
 #contenedorTerciario {
     position: relative;
     top: -100px;
-    left: 20px;
-    max-width: 100%;
+    left: 100px;
+    width: 75%;
+}
+.kabataCuadro #TextoPrincipal{
+    margin-top: 50px;
+    padding: 0px;
+    width: 50%;
+}
+.kabataCuadro #TextoPrincipal p {
+    position: relative;
+    text-align: justify;
+    left: 25px;
 }
 
 @media (max-width:991px) and (max-width:770px) {
     .kabataCuadro .container-fluid {
         margin-top: 150px;
+        height: 100%;
+        
     }
 
     #contenedorTerciario {
@@ -327,21 +291,69 @@ Procesadora KÁBATA CUADRO
         top: -75px;
 
     }
+    .kabataCuadro #TextoPrincipal{
+        width: 100%;
+        margin-top: 50px;
+        left: 0px;
+    }
 
 }
-@media (max-width:767px) {
+@media (max-width:1025px){
     #contenedorTerciario {
-       width: 70%;
+        width: 90%;
+        left: 50px;
+    }
+    .kabataCuadro .container-fluid{
+        margin-top: -150px;
+        width: 100%;
+    }
+}
+@media (max-width:769px) and (min-width:605px){
+    .kabataCuadro .container-fluid {
+        margin-bottom: 100px;
+    }
+    #contenedorTerciario {
+        width: 100%;
+        position: relative;
+        top: 40px;
+        left: 50%;
+ 
+     }
+     .kabataCuadro #TextoPrincipal p {
+        left: 0px;
+     }
+     .kabataCuadro #TextoPrincipal{
+        position: relative;
+        width: 75%;
+        left: 15%;
+     }
+}
+@media (max-width:600px) {
+    #contenedorTerciario {
+       width: 80%;
        position: relative;
-       top: 50px;
-        left: 100px;
+       top: 35px;
+       left: 35px;
 
     }
     .kabataCuadro .container-fluid {
         padding-bottom: -200px;
         margin-top: -220px;
         width: 100%;
+        height: 100%;
     }
-    
+    .kabataCuadro #TextoPrincipal{
+        position: relative;
+        margin-top: 50px;
+        width: 70%;
+        left: 15%;
+     }
+     .kabataCuadro #TextoPrincipal p {
+        left: 0px;
+     }
   
 }
+
+/*****************************************
+Procesadora KÁBATA CUADRO S
+******************************************/

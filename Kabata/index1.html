@@ -22,73 +22,73 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <style>
+        .flip-card {
+            perspective: 1000px;
+        }
 
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+
+        .flip-card-front {
+            background-color: #bbb;
+            color: black;
+        }
+
+        .flip-card-back {
+            background-color: #2980b9;
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <!--  Navbar -->
-        <nav class="navbar navbar-expand-lg  fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand me-auto" href="./AlimentoFrutalesAromaticos.html">
-                    <img src="../Imagenes/Logo_Kabata.png" alt="Kabata" width="50%" height="50%"
-                        class="d-inline-block align-text-top" id="NavLogo">
-                </a>
-
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link  mx-lg-2 active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#">Nosotroso</a>
-                            </li>
-                            <li class="nav-item dropdown-center">
-                                <a class="nav-link  dropdown-toggle mx-lg-2" href="#" href="#" id="dropdownId"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plantas</a>
-                                <div class="dropdown-menu menu-dark" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item active " href="#">Hierbas con propiedades Digestivas </a>
-                                    <a class="dropdown-item" href="#">Hierbas con propiedades Tranquilizantes</a>
-                                    <a class="dropdown-item" href="#">Hierbas con propiedades diuréticas</a>
-                                    <a class="dropdown-item" href="#">Hierbas con propiedades Espectorante</a>
-                                    <a class="dropdown-item" href="#">Hierbas con propiedades Purificante de sangre</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#">Novedade</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#">Contacto</a>
-                            </li>
-                        </ul>
-
+    
+    <main>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front p-3">
+                                <h2>Front Side</h2>
+                                <p>Click me!</p>
+                            </div>
+                            <div class="flip-card-back p-3">
+                                <h2>Back Side</h2>
+                                <p>Hello, World!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </div>
-        </nav>
-        <!-- End Navbar-->
-        <!-- Hero Section-->
-        <section class="hero-section">
-            <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+        </div>
 
-            </div>
-
-        </section>
-
-
-        <!-- End Her Section-->
-    </header>
-    <main></main>
+    </main>
+    <script>
+        document.querySelector('.flip-card').addEventListener('click', function() {
+            this.querySelector('.flip-card-inner').classList.toggle('is-flipped');
+        });
+    </script>
     <footer>
         <!-- place footer here -->
 
