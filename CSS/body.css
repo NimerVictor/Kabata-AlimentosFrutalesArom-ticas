@@ -376,7 +376,7 @@ Procesadora KÁBATA CUADROs finales index
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,1);
 }
 
 .flip-card.is-flipped .flip-card-inner {
@@ -405,6 +405,9 @@ Procesadora KÁBATA CUADROs finales index
     text-align: start;
     position: relative;
     left: 10px;
+}  
+.flip-card .btn:hover{
+  background-color: #c4db65;
 }
 @media (max-width: 600px) {
     .flip-card {

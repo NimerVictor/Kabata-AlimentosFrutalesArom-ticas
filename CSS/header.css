@@ -21,11 +21,10 @@ Header
 }
 @media (max-width:991px){
     .navbar{
-
+        
         height: 0px;
         margin: 0px;
-        padding: 2.50em;
-       
+        padding: 2.50em;       
     }
    .navbar .container-lg{
         margin-top: -30px;

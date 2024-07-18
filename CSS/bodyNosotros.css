@@ -1,0 +1,217 @@
+    /*****************
+
+    Info Principal
+
+    ******************/
+
+    .infoPrincipal {
+        position: relative;
+        margin-top: 150px;
+        left: 20px;
+        text-decoration: none;
+    }
+
+    .infoSecundaria {
+        position: relative;
+        margin-top: 50PX;
+        left: 50px;
+
+    }
+
+    .infoSecundaria {}
+
+    #imagenInfoUno img {
+        border-radius: 5px;
+    }
+
+    #imagenInfoDos img {
+        border-radius: 5px;
+    }
+
+    .txtSecundario {
+        text-align: center;
+    }
+
+    @media (min-width:1023px) {
+        #imagenInfoUno {
+            position: relative;
+            left: 75px;
+
+        }
+
+        #imagenInfoUno img {
+            width: 76.5%;
+        }
+
+        #imagenInfoDos img {
+            width: 80%;
+        }
+
+        #imagenInfoDos {
+            position: relative;
+            left: 0PX;
+
+        }
+
+        .txtSecundario {
+            position: relative;
+            right: 70px;
+        }
+
+        .infoPrincipal .textoPrincipal {
+            position: relative;
+            left: 20px;
+        }
+    }
+
+    @media (max-width:769px) {
+
+        .infoPrincipal {
+            left: 50px;
+            margin-top: 320px;
+        }
+
+        .infoSecundaria {
+            left: 0px;
+        }
+
+        #imagenInfoUno {
+            position: relative;
+            left: 120px;
+        }
+
+        #imagenInfoUno img {
+            width: 45%;
+        }
+
+        .infoPrincipal .textoPrincipal {
+            position: relative;
+            left: 0px;
+        }
+
+        #imagenInfoDos img {
+            width: 50%;
+
+        }
+
+        #imagenInfoDos {
+            position: relative;
+
+            left: 135px;
+            margin-bottom: 25px;
+
+        }
+
+        .txtSecundario {
+            right: 0px;
+            left: 0px;
+        }
+    }
+
+    @media (max-width:600px) {
+        .infoPrincipal {
+            left: 0px;
+        }
+
+        .infoSecundaria {
+            left: 0px;
+        }
+
+        #imagenInfoUno {
+            position: relative;
+            left: 15px;
+        }
+
+        #imagenInfoUno img {
+            width: 100%;
+        }
+
+        .infoPrincipal .textoPrincipal {
+            position: relative;
+            left: 10px;
+        }
+
+        #imagenInfoDos img {
+            width: 100%;
+
+        }
+
+        #imagenInfoDos {
+            position: relative;
+            left: 15px;
+            margin-bottom: 25px;
+
+        }
+
+        .txtSecundario {
+            position: relative;
+            right: 0px;
+            left: 10px;
+        }
+    }
+
+    /*****************
+
+    Info Principal
+
+    ******************/
+    body{
+        /*background-color: #81866b;*/
+ 
+    
+        text-align: start;
+    }
+    h1, h2, h3, h4{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .leaf-card {
+        margin-top: 50px;
+        position: relative;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        /* border-radius: 50px 20px 50px 20px;*/
+        overflow: hidden;
+        transition: transform 0.3s;
+        height: 275px;
+        width: 100%;
+        color: #333;
+    }
+
+    .leaf-card .card-text {
+        margin-top: 20px;
+    }
+
+    .leaf-card:hover {
+        transform: scale(1.05);
+        background-color: #3d8650;
+        color: #fff;
+    }
+
+    .leaf-card::before,
+    .leaf-card::after {
+        content: '';
+        position: absolute;
+       /* background-color: #375419fb;*/
+        border-radius: 50%;
+    }
+
+    .leaf-card::before {
+        top: -60px;
+        left: -60px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .leaf-card::after {
+        bottom: -50px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .leaf-card-content {
+        position: relative;
+        z-index: 1;
+    }
