@@ -215,3 +215,23 @@
         position: relative;
         z-index: 1;
     }
+/************************
+        Video
+*************************/
+.video{
+    margin-top: -400px;
+}
+.video .container {
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .video .container iframe {
+        width: 110%;
+    }
+    
+}
+@media (max-width:1024px) and (min-width: 769px) {
+    .video{
+        margin-top: -50px;
+    }
+}
