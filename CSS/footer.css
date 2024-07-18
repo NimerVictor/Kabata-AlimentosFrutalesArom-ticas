@@ -1,49 +1,92 @@
-.footer{
+.footer {
     color: #666777;
     padding-bottom: 40px;
     border-top: hidden;
     border-color: #009979;
     margin-top: 50px;
     background-color: #fff;
-    
+
 }
 
-.info-footer p{
+.info-footer p {
     padding-left: 30px;
     display: block;
     font-size: 20px;
     margin-top: 10px;
     color: #009979;
     text-decoration: none;
+
 }
 
 .caja {
     margin: 0 auto;
 }
-
-.info-footer a{
-    padding-left: 30px;
-    display: block;
-    font-size: 15px;
-    color: #666777;
-    text-decoration: none;
-   text-align: justify;
-  
-}
-
-.info-footer a:hover{
+.info-footer a:hover {
     color: #009979;
     text-decoration: none;
 }
 
-.logo-footer{
+.logo-footer {
     width: 125%;
     height: 100%;
     padding: 50px;
     display: inline;
 }
+.info-footer a {
+    padding-left: 30px;
+    display: block;
+    font-size: 15px;
+    color: #666777;
+    text-decoration: none;
+    text-align: justify;
+    position: relative;
+    left: 30px;
+}
+.info-footer .Al {
+    position: relative;
+    left: 10px;
+}
+.info-footer .So {
+    position: relative;
+    left: 80px;
+}
 
-.img-footer{
+@media (max-width: 1025px){
+    .info-footer a {
+        position: relative;
+        left: 38px;
+    }
+    .info-footer .Al {
+        position: relative;
+        left: 16px
+    }
+    .info-footer .So {
+        position: relative;
+        left: 25px
+    }
+}
+@media (max-width: 769px){
+    .info-footer a {
+        position: relative;
+        left: 15px;
+    }
+   
+    .info-footer .So {
+        position: relative;
+        left: 30px
+    }
+}
+@media (max-width: 600px){
+    .info-footer a {
+        text-align: center;
+    }
+   
+    .info-footer .So {
+        position: relative;
+        left: 30px
+    }
+}
+.img-footer {
     width: 80%;
     height: 80%;
     margin: 0 auto;

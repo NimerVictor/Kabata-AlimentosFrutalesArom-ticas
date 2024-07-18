@@ -3,6 +3,7 @@
 @import url("../CSS/footer.css");
 @import url("../css/headerNosotros.css");
 @import url("../CSS/bodyNosotros.css");
+@import url("../CSS/goTop.css");
   /* Fonts */
   :root {
     --body-font: 'Chilanka', cursive;
