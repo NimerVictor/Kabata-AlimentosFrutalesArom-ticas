@@ -28,7 +28,7 @@
   <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
 </head>
 
-<header class="container-lg">
+<header id="topbar" class="container-lg">
   <!--  Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top  ">
     <div class="container-lg">
@@ -64,7 +64,7 @@
               <a class="nav-link mx-lg-2" href="#">Novedades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Contacto</a>
+              <a class="nav-link mx-lg-2" href="Contacto.html">Contacto</a>
             </li>
           </ul>
 
@@ -77,9 +77,9 @@
     </div>
   </nav>
   <div class="container-fluid p-0 blur-background mt-3 border border-bottom-0">
-    <img src="../Imagenes/Hierbas con propiedades Digestivas/Aguacate.jpeg" alt="Background Image">
+    <img src="../Imagenes/Hierbas con propiedades Tranquilizantes/Jazmin.jpg" alt="Background Image">
     <div class="blur-content">
-      <h1 class="display-4 fs-2 fw-bold">Alimentos Frutales y Aromáticas</h1>
+      <h1 class="display-4 fs-2 fw-bold">Alimentos Frutales <a id="texto">y Aromáticas</a></h1>
       <p></p>
     </div>
   </div>
@@ -87,9 +87,9 @@
 
 </header>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2">
 
-  <main>
+  <main >
     <section class="infoPrincipal">
       <div class="container-fluid mt-5 justify-content-center align-items-center mb-6 h-100 ">
         <div class="row align-items-center ">
@@ -300,11 +300,9 @@
   </main>
 
 
-    <div class="go-top-container">
-      <div class="go-top-button">
-        <i class="fas fa-chevron-up"></i>
-      </div>
-    </div>
+  <div id="go-top">
+    <a href="#topbar" id="goTopBtn" class="fa-solid fa-chevron-up"></a>
+  </div>
 
 
   <footer>

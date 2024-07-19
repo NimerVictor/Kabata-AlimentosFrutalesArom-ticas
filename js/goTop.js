@@ -1,17 +1,21 @@
+let goTopoBtn = document.getElementById("goTopBtn");
+
 window.onscroll = function () {
-    if (document.documentElement.scrollTop > 100) {
-        document.querySelector('.go-top-container')
-            .classList.add('show');
+    scrollFuntion();
+}
+function scrollFuntion() {
+    if (document.documentElement.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+        goTopoBtn.style.display = "Flex";
 
     } else {
-        document.querySelector('.go-top-container')
-            .classList.remove('show');
+        goTopoBtn.style.display = "none";
     }
+    document.querySelector("goTopBtn")
+        .addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        })
+
 }
-document.querySelector('.go-top-container')
-.addEventListener('click', () =>{
-    window.scrollTo({
-        top:0,
-        behavior: 'smooth'
-    })
-})
