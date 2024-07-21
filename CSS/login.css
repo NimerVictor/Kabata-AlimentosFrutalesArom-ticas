@@ -1,69 +1,70 @@
-body {}
+#login body {}
+#login{
 
-form {
+}
+#login form {
     position: relative;
+   
     margin-top: 150px;
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    text-align: cecnter;
-    width: 700px;
-    left: 25%;
+    text-align: center;
+    width: 500px;
+    left: 30%;
 }
 
-.input-group {
+#login .input-group {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: left;
+ 
 }
-
-h2 {
+.input-group{
+    margin-top: -50px;
+}
+#login .titulo {
     color: #333;
     font-size: 35px;
+    margin-bottom: 50px;
 }
 
-label {
+#login label {
     color: #333;
     font-size: 15px;
     font-weight: 60px;
     margin-bottom: 15px;
 }
 
-#formulario input, textarea {
+#login input,
+textarea {
     padding: 17px 25px;
-    border-radius: 25px;
+    border-radius: 50px;
     margin-bottom: 20px;
     background-color: #edfff0;
     border: 2px solid #f0faf1;
     color: #333;
     outline: none;
 }
-#formulario textarea{
-    padding: 17px 25px;
-    border-radius: 25px;
-    margin-bottom: 20px;
-    background-color: #edfff0;
-    border: 2px solid #f0faf1;
-    color: #333;
-    outline: none;
-}
-#formulario input::placeholder,
+
+#login input::placeholder,
 textarea::placeholder {
     color: #b5cab6;
 }
-.form-txt{
+#login .form-txt{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.form-txt a{
+#login .form-txt a{
     color: #76b28e;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 }
-#formulario .btn{
+#login  .btn{
     font-size: 16px;
     color: #fff;
     border:0;
@@ -73,29 +74,29 @@ textarea::placeholder {
     cursor:pointer;
 
 }
-#formulario .btn:hover{
+#login .btn:hover{
     background-color: #49ff3566;
       
 }
 @media(max-width:1024px){
-    form{
+    #login form{
     left: 23%;
     }
 
 }
 @media(max-width:991px){
   
-    form{
+    #login form{
         margin-top: 400px;
         padding: 50px 30px;
-        left: 10px;
+        left: 0px;
         width: 100%;
     }
-    input{
+    #login input{
         padding: 15px;
     }
-    input,
-    textarea {
+    #login input,
+    #login textarea {
         padding: 17px 25px;
         border-radius: 25px;
         margin-bottom: 20px;
@@ -103,7 +104,7 @@ textarea::placeholder {
     }
     
 }
-.formulario p{
+#formulario p{
     margin-top: 150px;
     font-size: 18px;
     margin-bottom: -90px;

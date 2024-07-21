@@ -6,6 +6,7 @@
 @import url("../CSS/goTop.css");
 @import url("../CSS/headerContacto.css");
 @import url("../CSS/bodyContacto.css");
+@import url("../CSS/login.css");
   /* Fonts */
   :root {
     --body-font: 'Chilanka', cursive;

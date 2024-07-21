@@ -48,7 +48,7 @@ Header
     }
     
     .navbar .container-lg{
-        margin-top: -20px;
+        margin-top: -50px;
    }
     .banner{
         margin-top: 80px;
@@ -59,12 +59,21 @@ Header
     
     }
     #NavLogo{
-        height: 100%;
-        width: 100%;
+        height: 50px;
+        width: 100px;
         border-radius: 0px;
      
     }
- 
+    .login-button{
+        right: 0%;
+        left: 0px;  
+        top: 0px;
+    } 
+    .search-button{
+        right: 0%;
+        left: 0px;  
+        top: 0px;
+    }
 }
 .CarouselImagenes{
     height: 1rem;
@@ -86,6 +95,7 @@ Header
 
 }
 .Login-button {
+    position: relative;
     background-color: #009979;
     color: #fff;
     font-size: 14px;
@@ -93,8 +103,19 @@ Header
     border-radius: 50px;
     text-decoration: none;
     transition: 0.3s background-color;
+    right: 5%;
 }
-
+.login-button{
+    position: relative;
+    right: 0%;  
+    top: 2px;
+} 
+.search-button{
+    position: relative;
+    transition: 0.3s background-color;
+    right: 10%;  
+    top: 2px;
+}
 .Login-button:hover {
     background-color: #00b383;
 }
