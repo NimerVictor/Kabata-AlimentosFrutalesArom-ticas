@@ -2,15 +2,17 @@ body {}
 
 form {
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: cecnter;
     width:
         700px;
-    left: 25%;
-
+    left: 19%;
+    h2{
+        margin-bottom: 75px;
+    }
 }
 
 .input-group {
@@ -19,7 +21,6 @@ form {
     text-align: left;
 }
 
-h2 {}
 
 label {
     color: #333;
@@ -83,6 +84,15 @@ textarea::placeholder {
     background-color: #49ff3566;
 
 }
+
+#formulario {
+    margin-top: 100px;
+}
+
+.soloFormulario {
+    margin-top: -170px;
+}
+
 /* Asegúrate de que el mapa tenga un tamaño específico */
 #map {
     margin-top: 50px;
@@ -97,22 +107,27 @@ body {
     margin: 0;
     padding: 0;
 }
-.ruta{
+
+.ruta {
     position: relative;
     margin-top: 150px;
     left: 70px;
 }
+
 @media(max-width:1024px) {
     form {
-        left: 23%;
+        left:15%;
     }
 
 }
 
-@media(max-width:991px) {
-
-    form {
+@media(max-width:770px) {
+    #formulario {
         margin-top: 400px;
+    }
+    
+    form {
+        margin-top: 100px;
         padding: 50px 30px;
         left: 10px;
         width: 100%;
@@ -134,11 +149,59 @@ body {
 
 @media(max-width:600px) {
     form {
-        margin-top: 150px;
-        left: 0%;
+        margin-top: 50px;
+        left: 0px;
+    }
+
+    #formulario {
+        margin-top: 255px;
     }
 
     #map {
         margin-top: 400px;
     }
+}
+
+
+
+.intro-single {
+    padding: 1rem 0 3rem;
+   
+}
+
+@media (max-width: 767px) {
+    .intro-single {
+        padding-top: 9rem;
+    }
+}
+
+.intro-single .title-single-box {
+    padding: 1rem 0 1rem 2rem;
+    border-left: 3px solid #2eca6a;
+}
+
+.intro-single .title-single-box .title-single {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .intro-single .title-single-box .title-single {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .intro-single .title-single-box .title-single {
+        font-size: 2.5rem;
+    }
+}
+
+.intro-single .breadcrumb-box {
+    padding: 1rem 0 0 0.5rem;
+}
+
+.intro-single .breadcrumb {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
 }

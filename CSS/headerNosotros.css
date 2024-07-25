@@ -27,12 +27,25 @@
     padding: 20px;
  
 }
-@media (max-width:769px){
-    .blur-background {
-        width: 100%;
+
+@media (max-width:769px) {
+    #cuadroContacto .blur-background {
+        width: 114.75%;
         position: absolute;
     }
-    
+
+    #cuadroContacto .blur-content {
+
+        color: #fff;
+
+    }
+
+    #cuadroContacto .blur-background img {
+        overflow: hidden;
+        height: 60em;
+        filter: saturate(0.5);
+
+    }
 }
 .blur-content #texto{
     color: #fff;

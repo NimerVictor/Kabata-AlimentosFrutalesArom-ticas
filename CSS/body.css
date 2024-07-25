@@ -5,7 +5,7 @@ Carousel
 
 */
 body {
-    background-color: #f8f9fa
+    background-color: #f3f3f3;
        /* #81866b;    
     /* Fondo claro */
 
@@ -166,9 +166,14 @@ p {
 
 .cardCarousel {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
-
+#cardTe{
+    margin-top: 25px;
+}
+.btnTe{
+    margin-top: 35px;
+}
 .cardCarousel .carousel-inner .img {
     width: 225px;
 }
@@ -539,11 +544,11 @@ Procesadora KÁBATA Loction
 
 .info-box h4 {
     margin-bottom: 10px;
-    color: #f8f9fa;
+    color: #f3f3f3;
 }
 
 .info-box p {
-    color: #f8f9fa;
+    color: #f3f3f3;
 }
 
 .buttons-section {

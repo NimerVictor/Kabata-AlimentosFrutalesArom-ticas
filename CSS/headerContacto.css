@@ -12,8 +12,10 @@
 #cuadroContacto .blur-background img {
     width: 100%;
     height: auto;
+
     filter: blur(0px);
     transform: scale(1.1);
+
 }
 
 
@@ -35,8 +37,16 @@
         position: absolute;
     }
 
-}
+    #cuadroContacto .blur-content {
 
-#cuadroContacto .blur-content #texto {
-    color: #fff;
+        color: #fff;
+        font-family: Arial;
+    }
+
+    #cuadroContacto .blur-background img {
+        overflow: hidden;
+        height: 160em;
+        filter: saturate(0.5);
+
+    }
 }
