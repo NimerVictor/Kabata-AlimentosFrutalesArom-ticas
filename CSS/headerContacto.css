@@ -1,20 +1,21 @@
 #cuadroContacto .blur-background {
     position: relative;
     overflow: hidden;
-    top:100px;
-    left:1%;
+    top: 100px;
+    left: 1%;
     margin: 0 -15px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
 }
-#cuadroContacto .blur-background img{
+
+#cuadroContacto .blur-background img {
     width: 100%;
     height: auto;
-    filter: blur(0px);  
+    filter: blur(0px);
     transform: scale(1.1);
-   }
-   
+}
+
 
 #cuadroContacto .blur-content {
     position: absolute;
@@ -25,17 +26,17 @@
     color: #fff;
     padding: 20px;
 
- 
+
 }
 
-@media (max-width:769px){
+@media (max-width:769px) {
     #cuadroContacto .blur-background {
         width: 114.75%;
-       position: absolute;
+        position: absolute;
     }
-    
+
 }
 
-#cuadroContacto .blur-content #texto{
+#cuadroContacto .blur-content #texto {
     color: #fff;
 }

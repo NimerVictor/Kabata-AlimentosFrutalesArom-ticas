@@ -17,10 +17,12 @@
         left: 50px;
 
     }
-    li{
+
+    li {
         text-decoration: none;
         list-style: none;
     }
+
     .infoSecundaria {}
 
     #imagenInfoUno img {
@@ -71,7 +73,7 @@
 
         .infoPrincipal {
             left: 50px;
-            margin-top: 320px;
+            margin-top: 400px;
         }
 
         .infoSecundaria {
@@ -158,16 +160,21 @@
     Info Principal
 
     ******************/
-    body{
+    body {
         /*background-color: #81866b;*/
- 
-    
+
+
         text-align: start;
     }
-    h1, h2, h3, h4{
+
+    h1,
+    h2,
+    h3,
+    h4 {
         font-weight: bold;
         margin-bottom: 20px;
     }
+
     .leaf-card {
         margin-top: 50px;
         position: relative;
@@ -196,7 +203,7 @@
     .leaf-card::after {
         content: '';
         position: absolute;
-       /* background-color: #375419fb;*/
+        /* background-color: #375419fb;*/
         border-radius: 50%;
     }
 
@@ -218,23 +225,56 @@
         position: relative;
         z-index: 1;
     }
-/************************
+
+    /************************
         Video
 *************************/
-.video{
-    margin-top: -400px;
-}
-.video .container {
-    margin-bottom: 50px;
-}
-@media (max-width: 768px) {
-    .video .container iframe {
-        width: 110%;
+    .video {
+        margin-top: -400px;
     }
-    
-}
-@media (max-width:1024px) and (min-width: 769px) {
-    .video{
-        margin-top: -50px;
+
+    .video .container {
+        margin-bottom: 50px;
     }
-}
+
+    @media (max-width: 768px) {
+        .video .container iframe {
+            width: 110%;
+        }
+
+    }
+
+    @media (max-width:1024px) and (min-width: 769px) {
+        .video {
+            margin-top: -50px;
+        }
+    }
+
+
+    @media (min-width: 768px) {
+        #cardNosotros .carousel-inner {
+            display: flex;
+        }
+
+        #cardNosotros .carousel-item {
+            margin-right: 0;
+            flex: 0 0 33.333333%;
+            display: block;
+        }
+    }
+    #cardNosotros .carousel-inner{
+        padding: 1em;
+    }
+    #cardNosotros .card{
+        margin: 0 .5em;
+        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+        border: none;
+    }
+    #cardNosotros .carousel-control-prev, .carousel-control-next{
+        background-color: #e1e1e1;
+        width: 6vh;
+        height: 6vh;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }

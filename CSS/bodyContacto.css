@@ -7,8 +7,10 @@ form {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: cecnter;
-    width: 700px;
+    width:
+        700px;
     left: 25%;
+
 }
 
 .input-group {
@@ -17,10 +19,7 @@ form {
     text-align: left;
 }
 
-h2 {
-    color: #333;
-    font-size: 35px;
-}
+h2 {}
 
 label {
     color: #333;
@@ -29,7 +28,8 @@ label {
     margin-bottom: 15px;
 }
 
-#formulario input, textarea {
+#formulario input,
+textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
@@ -38,7 +38,8 @@ label {
     color: #333;
     outline: none;
 }
-#formulario textarea{
+
+#formulario textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
@@ -47,53 +48,80 @@ label {
     color: #333;
     outline: none;
 }
+
 #formulario input::placeholder,
 textarea::placeholder {
     color: #b5cab6;
 }
-.form-txt{
+
+.form-txt {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.form-txt a{
+
+.form-txt a {
     color: #76b28e;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 }
-#formulario .btn{
+
+#formulario .btn {
     font-size: 16px;
     color: #fff;
-    border:0;
-    border-radius:50px;
+    border: 0;
+    border-radius: 50px;
     background-color: #3d8650;
-    box-shadow: 0 0 10px rgba(25,254,0,0.4);
-    cursor:pointer;
+    box-shadow: 0 0 10px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
 
 }
-#formulario .btn:hover{
+
+#formulario .btn:hover {
     background-color: #49ff3566;
-      
+
 }
-@media(max-width:1024px){
-    form{
-    left: 23%;
+/* Asegúrate de que el mapa tenga un tamaño específico */
+#map {
+    margin-top: 50px;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ruta{
+    position: relative;
+    margin-top: 150px;
+    left: 70px;
+}
+@media(max-width:1024px) {
+    form {
+        left: 23%;
     }
 
 }
-@media(max-width:991px){
-  
-    form{
+
+@media(max-width:991px) {
+
+    form {
         margin-top: 400px;
         padding: 50px 30px;
         left: 10px;
         width: 100%;
     }
-    input{
+
+    input {
         padding: 15px;
     }
+
     input,
     textarea {
         padding: 17px 25px;
@@ -101,14 +129,16 @@ textarea::placeholder {
         margin-bottom: 20px;
         width: 100%;
     }
-    
-}
-.formulario p{
-    margin-top: 150px;
-    font-size: 18px;
-    margin-bottom: -90px;
-    text-decoration: none;
 
 }
 
+@media(max-width:600px) {
+    form {
+        margin-top: 150px;
+        left: 0%;
+    }
 
+    #map {
+        margin-top: 400px;
+    }
+}

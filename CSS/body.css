@@ -5,17 +5,32 @@ Carousel
 
 */
 body {
-    background-color: #fff /*#81866b*/;
+    background-color: #f8f9fa
+       /* #81866b;    
     /* Fondo claro */
- 
+
 }
 
-.carousel-inner img {
-    height: 35em;
+
+.c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  .carousel-inner img {
+height: 35rem;
     width: 100%;
 }
+/***********************
+
+Card
 
 
+************************/
 
 .card {
     border: none;
@@ -34,7 +49,7 @@ body {
     font-weight: bolder;
 }
 
-.cardCarousel .carousel-control-prev,
+.carousel-control-prev,
 .carousel-control-next {
     background-color: #e1e1e1;
     width: 6vh;
@@ -44,7 +59,7 @@ body {
     transform: translateY(-50%);
 }
 
-.cardCarousel .carousel-control-prev span,
+.carousel-control-prev span,
 .carousel-control-next span {
     width: 1.5rem;
     height: 1.5rem;
@@ -151,7 +166,7 @@ p {
 
 .cardCarousel {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .cardCarousel .carousel-inner .img {
@@ -169,8 +184,6 @@ p {
 
     .cardCarousel .carousel-inner {
         width: 100%;
-        margin-top: -250px;
-
     }
 }
 
@@ -203,8 +216,9 @@ p {
 
 @media (max-width:600px) {
     .cardCarousel {
-        margin-top: 600px;
+        margin-top: 0px;
         margin-bottom: 0px;
+        padding: 30px;
     }
 
     .cardCarousel .carousel-inner {
@@ -231,14 +245,17 @@ p {
         height: 100%;
     }
 }
-@media (max-width:429px) and (min-width:400px){
+
+@media (max-width:429px) and (min-width:400px) {
     .card {
         height: 450px;
     }
+
     .cardCarousel {
         margin-bottom: 75px;
     }
 }
+
 @media (max-width:769px) {}
 
 .cardCarousel .carousel-control-prev {
@@ -254,12 +271,12 @@ Procesadora KÁBATA CUADRO
 ******************************************/
 .kabataCuadro .container-fluid {
     color: #fff;
-   background-color: #3d8650;
+    background-color: #3d8650;
     padding-bottom: -200px;
     margin-top: -150px;
     width: 100%;
     padding-bottom: -500px;
-    height: 20em ;
+    height: 20em;
 }
 
 #contenedorTerciario {
@@ -268,11 +285,13 @@ Procesadora KÁBATA CUADRO
     left: 100px;
     width: 75%;
 }
-.kabataCuadro #TextoPrincipal{
+
+.kabataCuadro #TextoPrincipal {
     margin-top: 50px;
     padding: 0px;
     width: 50%;
 }
+
 .kabataCuadro #TextoPrincipal p {
     position: relative;
     text-align: justify;
@@ -283,7 +302,7 @@ Procesadora KÁBATA CUADRO
     .kabataCuadro .container-fluid {
         margin-top: 150px;
         height: 100%;
-        
+
     }
 
     #contenedorTerciario {
@@ -291,84 +310,103 @@ Procesadora KÁBATA CUADRO
         top: -75px;
 
     }
-    .kabataCuadro #TextoPrincipal{
+
+    .kabataCuadro #TextoPrincipal {
         width: 100%;
         margin-top: 50px;
         left: 0px;
     }
 
 }
-@media (max-width:1025px){
+
+@media (max-width:1025px) {
     #contenedorTerciario {
         width: 90%;
         left: 50px;
     }
-    .kabataCuadro .container-fluid{
+
+    .kabataCuadro .container-fluid {
         margin-top: -150px;
         width: 100%;
     }
 }
-@media (max-width:769px) and (min-width:605px){
+
+@media (max-width:769px) and (min-width:605px) {
     .kabataCuadro .container-fluid {
         margin-bottom: 100px;
     }
+
     #contenedorTerciario {
         width: 100%;
         position: relative;
         top: 40px;
         left: 50%;
- 
-     }
-     .kabataCuadro #TextoPrincipal p {
+
+    }
+
+    .kabataCuadro #TextoPrincipal p {
         left: 0px;
-     }
-     .kabataCuadro #TextoPrincipal{
+    }
+
+    .kabataCuadro #TextoPrincipal {
         position: relative;
         width: 75%;
         left: 15%;
-     }
+    }
 }
+
 @media (max-width:600px) {
     #contenedorTerciario {
-       width: 80%;
-       position: relative;
-       top: 35px;
-       left: 35px;
+        width: 80%;
+        position: relative;
+        top: 35px;
+        left: 35px;
 
     }
+
     .kabataCuadro .container-fluid {
         padding-bottom: -200px;
         margin-top: -220px;
         width: 100%;
         height: 100%;
     }
-    .kabataCuadro #TextoPrincipal{
+
+    .kabataCuadro #TextoPrincipal {
         position: relative;
         margin-top: 50px;
         width: 70%;
         left: 15%;
-     }
-     .kabataCuadro #TextoPrincipal p {
+    }
+
+    .kabataCuadro #TextoPrincipal p {
         left: 0px;
-     }
-  
+    }
+
 }
 
 /*****************************************
 Procesadora KÁBATA CUADROs finales index
 ******************************************/
 
-#flipCard{
-    margin-top: 100px;
-    margin-bottom:475px;
+#flipCard {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
+
+#flipCards {
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
 .flip-card {
     perspective: 1000px;
     margin: 20px;
 }
-.flip-card .card{
+
+.flip-card .card {
     width: 100%;
 }
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -376,54 +414,62 @@ Procesadora KÁBATA CUADROs finales index
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 1);
 }
 
 .flip-card.is-flipped .flip-card-inner {
     transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
 
-.flip-card-front {
-  
-}
-
 .flip-card-back {
     transform: rotateY(180deg);
 }
-.flip-card-back .card-body{
+
+.flip-card-back .card-body {
     margin-top: 70px;
 }
-.flip-card-back .card-text{
+
+.flip-card-back .card-text {
     margin-top: 20px;
     text-align: start;
     position: relative;
     left: 10px;
-}  
-.flip-card .btn:hover{
-  background-color: #c4db65;
 }
+
+.flip-card .btn:hover {
+    background-color: #c4db65;
+}
+
 @media (max-width: 600px) {
     .flip-card {
         position: relative;
         left: -15px;
         width: 100%;
-        margin-bottom: 450px;
+        margin-bottom: 400px;
+        padding: 20px;
     }
-    
+
+    #flipCard {
+        margin-top: 500px;
+        margin-bottom: 15px;
+    }
 }
+
 @media (max-width:769px) and (min-width: 601px) {
-    .flip-card {     
+    .flip-card {
         width: 90%;
         margin-bottom: 275px;
     }
 }
+
 @media (min-width: 1025px) {
     .flip-card {
         position: relative;
@@ -431,22 +477,109 @@ Procesadora KÁBATA CUADROs finales index
         width: 100%;
         margin-bottom: 450px;
     }
-    .flip-card .btn{
 
-    }
+    .flip-card .btn {}
 }
-@media (max-width: 1024px){
-    .flip-card .btn{
-        width:100%;
+
+@media (max-width: 1024px) {
+    .flip-card .btn {
+        width: 100%;
         position: relative;
         right: 50px;
     }
-    .flip-card-back .card-body{
+
+    .flip-card-back .card-body {
         margin-top: 0px;
     }
-    .flip-card-back .card-text{
+
+    .flip-card-back .card-text {
         margin-top: 20px;
         text-align: center;
         left: 0px;
     }
+}
+
+/*****************************************
+Procesadora KÁBATA Loction
+******************************************/
+
+.tea-shop-section .container-fluid {
+    padding: 1rem;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.tea-shop-banner {
+    overflow: hidden;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+    height: 30rem;
+}
+
+.tea-shop-banner img {
+    width: 100%;
+}
+
+.info-section {
+
+    margin-bottom: 20px;
+    margin-top: 0.1px;
+    background-color:#235931 ;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 1px;
+    padding: 10px;
+ 
+    margin-bottom: 20px;
+}
+
+.info-box {}
+
+.info-box h4 {
+    margin-bottom: 10px;
+    color: #f8f9fa;
+}
+
+.info-box p {
+    color: #f8f9fa;
+}
+
+.buttons-section {
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.buttons-section .btn {
+    position: relative;
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    left: 50px ;
+
+}
+
+.btn-primary {
+    background-color: #235931 ;
+    border-color: #fff;
+
+}
+.btn-primary:hover{
+    background-color: #c4db65;
+    border-color: #c4db65;
+}
+@media (max-width: 600px) {
+    .tea-shop-banner {
+        height: auto;
+    }
+    
+.buttons-section .btn {
+    left: 0;
+}
 }
