@@ -1,6 +1,6 @@
 body {}
 
-form {
+#formulario form {
     position: relative;
     margin-top: 50px;
     padding: 50px 55px;
@@ -9,7 +9,7 @@ form {
     text-align: cecnter;
     width:
         700px;
-    left: 19%;
+    left: 23%;
     h2{
         margin-bottom: 75px;
     }

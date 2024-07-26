@@ -45,7 +45,7 @@
 
     #cuadroContacto .blur-background img {
         overflow: hidden;
-        height: 160em;
+        height: 60em;
         filter: saturate(0.5);
 
     }

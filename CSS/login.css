@@ -1,10 +1,10 @@
 #login body {}
-#login{
 
-}
+#login {}
+
 #login form {
     position: relative;
-   
+
     margin-top: 150px;
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -19,11 +19,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
- 
+
 }
-.input-group{
+
+.input-group {
     margin-top: -50px;
 }
+
 #login .titulo {
     color: #333;
     font-size: 35px;
@@ -52,49 +54,57 @@ textarea {
 textarea::placeholder {
     color: #b5cab6;
 }
-#login .form-txt{
+
+#login .form-txt {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-#login .form-txt a{
+
+#login .form-txt a {
     color: #76b28e;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 }
-#login  .btn{
+
+#login .btn {
     font-size: 16px;
     color: #fff;
-    border:0;
-    border-radius:50px;
+    border: 0;
+    border-radius: 50px;
     background-color: #3d8650;
-    box-shadow: 0 0 10px rgba(25,254,0,0.4);
-    cursor:pointer;
+    box-shadow: 0 0 10px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
 
 }
-#login .btn:hover{
+
+#login .btn:hover {
     background-color: #49ff3566;
-      
+
 }
-@media(max-width:1024px){
-    #login form{
-    left: 23%;
+
+@media(max-width:1024px) {
+    #login form {
+        left: 23%;
     }
 
 }
-@media(max-width:991px){
-  
-    #login form{
+
+@media(max-width:991px) {
+
+    #login form {
         margin-top: 400px;
         padding: 50px 30px;
         left: 0px;
         width: 100%;
     }
-    #login input{
+
+    #login input {
         padding: 15px;
     }
+
     #login input,
     #login textarea {
         padding: 17px 25px;
@@ -102,9 +112,10 @@ textarea::placeholder {
         margin-bottom: 20px;
         width: 100%;
     }
-    
+
 }
-#formulario p{
+
+#formulario p {
     margin-top: 150px;
     font-size: 18px;
     margin-bottom: -90px;
@@ -112,4 +123,78 @@ textarea::placeholder {
 
 }
 
+/* CSS personalizado */
 
+.login-form {
+    position: relative;
+    top: 60px;
+    left: 35%;
+    width: 30%;
+
+    padding: 20px;
+    z-index: 1000;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: max-width 0.5s;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    margin-bottom: 10px;
+}
+
+#registrar .btn-custom {
+    background-color: rgb(3, 143, 59);
+    color: #fff;
+    border-radius: 50px;
+    margin: 5px;
+    width: 48%;
+}
+
+#registrar .btn {
+    position: relative;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+#registrar input::placeholder,
+textarea::placeholder {
+    color: #b5cab6;
+}
+
+#registrar .form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#registrar input {
+    padding: 17px 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #f0faf1;
+    color: #333;
+    outline: none;
+}
+
+
+
+#registroForm {
+    margin-top: 70px;
+}
+#registrar a{
+    color: #333;
+    text-decoration: none;
+    :hover{
+        color: #fff;
+        background-color: #3d8650;
+    }
+}

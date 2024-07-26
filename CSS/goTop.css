@@ -87,8 +87,8 @@ Go-top Container
 @media (max-width:1024px) and (min-width:770px) {
     #go-top {
         position: fixed;
-        right: 50px;
-        bottom: 50px;
+        right: 75px;
+        bottom: 100px;
 
         a {
             background: #3d8650;
@@ -112,8 +112,8 @@ Go-top Container
 @media (max-width:768px) and (min-width:600px) {
     #go-top {
         position: fixed;
-        right: 80px;
-        bottom: 80px;
+        right: 100px;
+        bottom: 150px;
 
         a {
             background: #3d8650;
@@ -137,7 +137,7 @@ Go-top Container
 @media (max-width:600px)  {
     #go-top {
         position: fixed;
-        right: 15px;
+        right: 50px;
         bottom: 25px;
 
         a {

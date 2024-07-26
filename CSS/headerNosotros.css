@@ -5,8 +5,9 @@
     margin: 0 -15px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    width: 100%;
+    max-width: 100%;
     height: 15rem;
+ 
 }
 
 .blur-background img{
@@ -29,20 +30,19 @@
 }
 
 @media (max-width:769px) {
-    #cuadroContacto .blur-background {
-        width: 114.75%;
-        position: absolute;
+    #cuadroNosotros .blur-background {
+        margin-bottom: -200px;
     }
 
-    #cuadroContacto .blur-content {
+    #cuadroNosotros .blur-content {
 
         color: #fff;
 
     }
 
-    #cuadroContacto .blur-background img {
+    #cuadroNosotros .blur-background img {
         overflow: hidden;
-        height: 60em;
+        height: 160em;
         filter: saturate(0.5);
 
     }

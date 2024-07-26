@@ -19,6 +19,50 @@ Header
 .navbar .container-lg{
     margin-top: -10px;
 }
+
+/* Ocultar texto en pantallas grandes */
+.login-item .login-button::after,
+.search-item .search-button::after {
+    content: '';
+}
+/* Mostrar texto en pantallas pequeñas */
+@media (max-width: 800px) {
+    .login-item .login-button::after {
+        content: ' Login';
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .search-item .search-button::after {
+        content: ' Search';
+        font-size: 16px;
+        margin-left: 38px;
+    }
+
+    /* Ocultar íconos en pantallas pequeñas */
+    .login-item .login-button ion-icon,
+    .search-item .search-button ion-icon {
+        display: none;
+    }
+}@media (max-width: 600px) {
+    .login-item .login-button::after {
+        content: 'Login';
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .search-item .search-button::after {
+        content: ' Search';
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    /* Ocultar íconos en pantallas pequeñas */
+    .login-item .login-button ion-icon,
+    .search-item .search-button ion-icon {
+        display: none;
+    }
+}
 @media (max-width:991px){
     .navbar{
         
