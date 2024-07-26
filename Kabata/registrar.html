@@ -19,6 +19,9 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
     <!-- Google Maps-->
@@ -98,6 +101,33 @@
 </header>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
+        <!-- ======= Intro Single ======= -->
+        <section id="introRegistro" class="intro-single" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-8">
+                        <div class="title-single-box">
+                            <h2 class="title-single fs-3">Login</h2>
+                            <span class="color-text-a">
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="AlimentoFrutalesAromaticos.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Login
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Intro Single-->
 
 
     <div id="registrar" class="login-container login-form">
@@ -109,7 +139,7 @@
 
             <form id="registroForm">
                 <div class="input-group">
-                    <h5 class="mt-3 text-center">INICIA SESIÓN EN KÁBATA</h5>
+                    <h2 class="mt-3 text-center fs-4 i">INICIA SESIÓN EN KÁBATA</h2>
                     <div class="mb-3">
                         <label for="loginEmail" class="form-label">Email</label>
                         <input type="email" class="form-control" id="loginEmail" placeholder="Email">
@@ -203,40 +233,64 @@
     </section>
 
     <footer>
+
         <!-- place footer here -->
         <div class="footer container-fluid ">
-            <div class="caja row w-100">
-
-                <div class="info-footer col-md-3 ">
-                    <div class="img-footer">
-                        <p></p>
-                        <img src="../Imagenes/Logo_Kabata-transformed.png" alt="Kabata" class="logo-footer"
-                            id="footerLogo" width="100%" height="mx-lg-2">
-                    </div>
-                </div>
-                <div class="info-footer col-md-3">
-                    <p>Hierbas con propiedades </p>
-                    <a class="" href="#">Digestivas </a>
-                    <a class="" href="#">Tranquilizantes</a>
-                    <a class="" href="#"> Diuréticas</a>
-                    <a class="" href="#">Espectorante</a>
-                    <a class="" href="#">Purificante de sangre</a>
-                </div>
-                <div class="info-footer col-md-3 ">
-                    <p>Alimento Frutales Aromaticos</p>
-                    <a class="Al" href="">Nosotros</a>
-                    <a class="Al" href="">Contacto</a>
-                    <a class="Al" href="">¿Donde nos encontramos?</a>
-                </div>
-                <div class="info-footer col-md-3  ">
-                    <p>Redes Sociales</p>
-                    <a class="So" href="">Gmail</a>
-                    <a class="So" href="">Facebook</a>
-                </div>
-
+          <div class="caja row w-100">
+    
+            <div class="info-footer col-md-3 ">
+              <div class="img-footer">
+                <p></p>
+                <img src="../Imagenes/Logo_Kabata-transformed.png" alt="Kabata" class="logo-footer" id="footerLogo"
+                  width="100%">
+              </div>
             </div>
+            <div class="info-footer col-md-3">
+              <p>Hierbas con propiedades </p>
+              <a class="" href="ubicacion.html">Digestivas </a>
+              <a class="" href="#">Tranquilizantes</a>
+              <a class="" href="#"> Diuréticas</a>
+              <a class="" href="#">Espectorante</a>
+              <a class="" href="#">Purificante de sangre</a>
+            </div>
+            <div class="info-footer col-md-3 ">
+              <p>Alimento Frutales Aromaticos</p>
+              <a class="Al" href="Nosotros.html">Nosotros</a>
+              <a class="Al" href="Contacto.html">Contacto</a>
+              <a class="Al" href="ubicacion.html">¿Donde nos encontramos?</a>
+            </div>
+            <div class="info-footer col-md-3  ">
+              <p>Contacto</p>
+              <a class="So" href="kabatatea@gmail.com">Gmail: kabatatea@gmail.com</a>
+              <a class="So" href="">Teléfono:+506 24420626 - 24400741</a>
+              <a class="So" href="">Responsable: Ing. Alberto Moreno G.</a>
+          
+            </div>
+            <br>
+            <div class="social-bar">
+    
+              <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.youtube.com/watch?time_continue=39&v=VOr7ESbtj4A&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5500%2F" target="_blank"><i class="bi bi-youtube"></i></a>
+              <a href="https://wa.me/86266461" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <div class="copyright-footer">
+              <p class="copyright color-text-a">
+                &copy; Copyright
+                <span class="color-a" style="color: black;">Alimento Frutales y Aromaticos</span> Todos los derechos
+                reservados.
+              </p>
+            </div>
+            <div class="credits">
+    
+              <p class="text-center"> Diseñado por <a href="https://bootstrapmade.com/">Nimer Hernández - Victor Arce</a>
+              </p>
+            </div>
+          </div>
         </div>
-    </footer>
+        </div>
+        </div>
+        </div>
+      </footer>
 
     <!--Scripts -->
     <script src="../js/nav.js"></script>

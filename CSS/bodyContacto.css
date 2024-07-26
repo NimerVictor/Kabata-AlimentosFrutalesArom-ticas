@@ -106,6 +106,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 .ruta {
@@ -115,7 +116,7 @@ body {
 }
 
 @media(max-width:1024px) {
-    form {
+    #formulario form {
         left:15%;
     }
 
@@ -124,15 +125,18 @@ body {
 @media(max-width:770px) {
     #formulario {
         margin-top: 400px;
-    }
-    
-    form {
-        margin-top: 100px;
-        padding: 50px 30px;
-        left: 10px;
         width: 100%;
     }
-
+    
+    #formulario form {
+        margin-top: 100px;
+        padding: 50px 30px;
+        left: 0px;
+        width: 100%;
+    }
+    #ContactFormText{
+        width: 100%;
+    }
     input {
         padding: 15px;
     }
@@ -148,7 +152,7 @@ body {
 }
 
 @media(max-width:600px) {
-    form {
+   #formulario form {
         margin-top: 50px;
         left: 0px;
     }
