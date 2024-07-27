@@ -96,11 +96,14 @@ textarea::placeholder {
 /* Asegúrate de que el mapa tenga un tamaño específico */
 #map {
     margin-top: 50px;
-    height: 80%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     margin-bottom: 100px;
 }
-
+#mapIntro{
+    margin-top: 100px;
+    margin-bottom: -150px;
+}
 html,
 body {
     height: 100%;
@@ -110,11 +113,13 @@ body {
 }
 
 .ruta {
-    position: relative;
     margin-top: 150px;
-    left: 70px;
 }
-
+#routeButton:hover{
+    background-color: #f3f3f3;
+    border-color: #3d8650;
+    color: #3d8650;
+}
 @media(max-width:1024px) {
     #formulario form {
         left:15%;
@@ -127,7 +132,14 @@ body {
         margin-top: 400px;
         width: 100%;
     }
-    
+    #mapIntro {
+        margin-top: 250px;
+     
+    }
+
+    #ruta{
+        margin-bottom: -200;
+    }
     #formulario form {
         margin-top: 100px;
         padding: 50px 30px;
@@ -162,7 +174,7 @@ body {
     }
 
     #map {
-        margin-top: 400px;
+        margin-top: 50px;
     }
 }
 
