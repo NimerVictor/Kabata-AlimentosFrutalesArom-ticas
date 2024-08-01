@@ -1,0 +1,513 @@
+[
+        {
+            "Nombre": "Aguacate",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Aguacate.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Vitaminico",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Albahaca",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Albahaca.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Chicasquil",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Chicasquil.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Vitaminico",
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        },
+        
+        {
+            "Nombre": "Coralillo",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Coralillo.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Cúrcuma",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Curcuma.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Guaba",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Guaba.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Vitaminico"
+            ]
+        },
+        {
+            "Nombre": "Guanábana",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Guanábana.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Guayaba",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Guayaba.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Vitaminico",
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Hombre grande",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Hombre grande.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Juanilama",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Juanilama.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Llatén",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Llaten.jpg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Lengua de suegra",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Lengua de suegra.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Madero negro",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Madero negro.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Menta",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Menta.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Papaya",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Papaya.jpeg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Tuna",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Tuna.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Vitaminico"
+            ]
+        },
+        {
+            "Nombre": "Saragundí",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Saragundí.jpeg",
+            "Tipo": "Digestivas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Caña agria",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Caña agria.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Cola de caballo",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Cola de caballo.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Diente de León",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Diente de Leon.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Estragón",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Estragón.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Guarumo",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Guarumo.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Jiñocuabe",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Jiñocuabe.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Romero",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Romero.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Sábila",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Sábila.jpeg",
+            "Tipo": "Diurecticas",
+            "Contenido": "",
+            "Propiedades": [
+                "Antimicrobiana",
+                "Antiinflamatorio",
+                ""
+            ]
+        },
+        {
+            "Nombre": "Eucalipto",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Eucalipto.jpg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Hinojo",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Hinojo.jpeg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Jengibre",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Jengibre.jpeg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Mango",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Eucalipto.jpeg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Vitaminico",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Naranjo Agrio",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Naranjo Agrio.jpg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Orégano",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Oregano.jpeg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Sauco",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Sauco.jpg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Zacate de limón",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Eucalipto.jpeg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Canela",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Canela.jpg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Diente de León",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Diente de Leon.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Equinácea",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Equinácea.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Frailecillo",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Frailecillo.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Ortiga",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Ortiga.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Sauco",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Sauco.jpg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Sorosi",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Sorosi.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Uruca",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Uruca.jpeg",
+            "Tipo": "Purificante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Hierbabuena",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Hierbabuena.jpg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Jazmín",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Jazmin.jpg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Manzanilla",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Manzanilla.jpg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Menta",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Menta.jpeg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antimicrobiana",
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Naranjo Agrio",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Naranjo Agrio.jpg",
+            "Tipo": "Espectorantes",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante",
+                "Antimicrobiana"
+            ]
+        },
+        {
+            "Nombre": "Passiflora",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Passiflora.jpeg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Tilo Criollo",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Tilo Criollo.jpg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante"
+            ]
+        },
+        {
+            "Nombre": "Valeriana",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Valeriana2.jpeg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antioxidante",
+                "Antiinflamatorio"
+            ]
+        },
+        {
+            "Nombre": "Vetiver",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Vetiver.jpeg",
+            "Tipo": "Tranquilizante",
+            "Contenido": "",
+            "Propiedades": [
+                "Antiinflamatorio",
+                "Antioxidante"
+            ]
+        }
+        
+
+    ]
