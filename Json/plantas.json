@@ -146,7 +146,7 @@
         },
         {
             "Nombre": "Papaya",
-            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Papaya.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Papaya.jpg",
             "Tipo": "Tranquilizante",
             "Contenido": "",
             "Propiedades": [
@@ -290,7 +290,7 @@
         },
         {
             "Nombre": "Mango",
-            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Eucalipto.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Mango.jpeg",
             "Tipo": "Espectorantes",
             "Contenido": "",
             "Propiedades": [
@@ -301,7 +301,7 @@
         },
         {
             "Nombre": "Naranjo Agrio",
-            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Naranjo Agrio.jpg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Naranjo_Agrio.jpg",
             "Tipo": "Espectorantes",
             "Contenido": "",
             "Propiedades": [
@@ -322,7 +322,7 @@
         },
         {
             "Nombre": "Sauco",
-            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Sauco.jpg",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Sauco.jpg",
             "Tipo": "Espectorantes",
             "Contenido": "",
             "Propiedades": [
@@ -332,7 +332,7 @@
         },
         {
             "Nombre": "Zacate de limón",
-            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Eucalipto.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Zacate de limón.jpeg",
             "Tipo": "Espectorantes",
             "Contenido": "",
             "Propiedades": [
@@ -352,7 +352,7 @@
         },
         {
             "Nombre": "Diente de León",
-            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Diente de Leon.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades diuréticas/Diente de Leon.jpeg",
             "Tipo": "Purificante",
             "Contenido": "",
             "Propiedades": [
@@ -362,7 +362,7 @@
         },
         {
             "Nombre": "Equinácea",
-            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Equinácea.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Equinacea.jpeg",
             "Tipo": "Purificante",
             "Contenido": "",
             "Propiedades": [
@@ -401,7 +401,7 @@
         },
         {
             "Nombre": "Sorosi",
-            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Sorosi.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Purificante de sangre/Sorosí.jpeg",
             "Tipo": "Purificante",
             "Contenido": "",
             "Propiedades": [
@@ -421,7 +421,7 @@
         },
         {
             "Nombre": "Hierbabuena",
-            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Hierbabuena.jpg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Hierbabuena.jpg",
             "Tipo": "Tranquilizante",
             "Contenido": "",
             "Propiedades": [
@@ -449,7 +449,7 @@
         },
         {
             "Nombre": "Menta",
-            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Menta.jpeg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Digestivas/Menta.jpeg",
             "Tipo": "Tranquilizante",
             "Contenido": "",
             "Propiedades": [
@@ -460,8 +460,8 @@
         },
         {
             "Nombre": "Naranjo Agrio",
-            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Naranjo Agrio.jpg",
-            "Tipo": "Espectorantes",
+            "Imagen": "../Imagenes/Hierbas con propiedades Espectorante (antialérgico)/Naranjo_Agrio.jpg",
+            "Tipo": "Tranquilizante",
             "Contenido": "",
             "Propiedades": [
                 "Antiinflamatorio",
@@ -481,7 +481,7 @@
         },
         {
             "Nombre": "Tilo Criollo",
-            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Tilo Criollo.jpg",
+            "Imagen": "../Imagenes/Hierbas con propiedades Tranquilizantes/Tilo_Criollo.jpg",
             "Tipo": "Tranquilizante",
             "Contenido": "",
             "Propiedades": [
