@@ -95,10 +95,11 @@
       <h2 class="text-center d-md-inline ">Plantas Digestivas </h2>
       <div class="mb-4 mb-md-0 float-md-end">
         <p class="m-0">
-          <button class="caja" data-filter="*">ALL</button>
-          <button class="caja" data-filter=".cat">CAT</button>
-          <button class="caja" data-filter=".dog">DOG</button>
-          <button class="caja" data-filter=".bird">BIRD</button>
+          <button class="caja" onclick="registrarPlantas()" data-filter="*">Todos</button>
+          <button class="caja" onclick="FiltroPlantas('Antiinflamatorio')" data-filter=".cat">Antiinflamatorio</button>
+          <button class="caja" onclick="FiltroPlantas('Antioxidante')" data-filter=".dog">Antioxidante</button>
+          <button class="caja" onclick="FiltroPlantas('Antimicrobiana')" data-filter=".bird">Antimicrobiana</button>
+          <button class="caja" onclick="FiltroPlantas('Vitaminico')" data-filter=".bird">Vitaminico</button>
         </p>
       </div>
     </div>
