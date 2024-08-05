@@ -94,12 +94,18 @@
     <div class="container-fluid">
       <h2 class="text-center d-md-inline ">Plantas Diurecticas </h2>
       <div class="mb-4 mb-md-0 float-md-end">
-        <p class="m-0">
-          <button class="caja" onclick="registrarPlantas()" data-filter="*">Todos</button>
-          <button class="caja" onclick="FiltroPlantas('Antiinflamatorio')" data-filter=".cat">Antiinflamatorio</button>
-          <button class="caja" onclick="FiltroPlantas('Antioxidante')" data-filter=".dog">Antioxidante</button>
-          <button class="caja" onclick="FiltroPlantas('Antimicrobiana')" data-filter=".bird">Antimicrobiana</button>
-        </p>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Filtro
+          </button>
+          <ul class="dropdown-menu">
+            <li class=""><a class="dropdown-item " href="#" onclick="registrarPlantas()" >Todos</a></li>
+            <li class=""><img class=" d-inline" src="../Imagenes/iconos/pastillas.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antiinflamatorio')">Antiinflamatorio</a></li>
+            <li class=""><img class=" d-inline" src="../Imagenes/iconos/engranaje.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antioxidante')">Antioxidante</button></a></li>
+            <li class=""><img class=" d-inline" src="../Imagenes/iconos/germenes.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antimicrobiana')">Antimicrobiana</a></li>
+            <li class=""><img class=" d-inline" src="../Imagenes/iconos/limon.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Vitaminico')" >Vitaminico</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

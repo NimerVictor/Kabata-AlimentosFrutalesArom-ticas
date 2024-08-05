@@ -327,6 +327,11 @@ Procesadora KÁBATA CUADRO
     left: 25px;
 }
 
+@media (max-width:767px) {
+.filtro{
+}
+}
+
 @media (max-width:991px) and (max-width:770px) {
     .kabataCuadro .container-fluid {
         margin-top: 150px;
