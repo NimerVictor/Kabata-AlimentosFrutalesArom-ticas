@@ -69,9 +69,10 @@ Card
     height: 1.5rem;
 }
 
-@media screen and (Min-width: 568px) {
+@media screen and (Min-width: 768px) {
     .cards-wrapper {
         display: flex;
+        margin: 0 auto;
     }
 
     .card {
@@ -81,14 +82,22 @@ Card
     }
 
     .image-wrapped {
+        margin-top: 5px;
+        
+        display: flex;  
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
 }
 
+@media screen and (Max-width: 768px) {
+    .image-wrapped {
+        margin-top: 5px;
+        
+        display: flex;  
+        margin: 0 auto;
+    }
+}
 
 @media screen and (Max-width: 567px) {
     .card:not(:first-child) {
@@ -97,6 +106,9 @@ Card
 
    
 
+}
+#carouselExampleControlsSmallScreen{
+    width: 100%;
 }
 
 .carouselCartas{
@@ -107,6 +119,8 @@ Card
     max-width: 200px;
     max-height: 200px;
     border-radius: 50%;
+    padding-top: 15px;
+    
 }
 
 .ali .image-wrapped img {
@@ -210,11 +224,11 @@ p {
     }
 }
 
-@media (max-width:991px) and (min-width: 601px) {
+@media (max-width:991px)  {
     .cardCarousel {
         margin-top: 200px;
         padding: 0px;
-        margin-bottom: -200px;
+        margin-bottom: 200px;
     }
 
     
@@ -236,33 +250,27 @@ p {
 @media (max-width:600px) {
     .cardCarousel {
         margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 30px;
+        margin-bottom: 30px;
+
     }
     .carouselCartas{
-        margin-top: 100px;
+        width: 100%;
     }
     #Recomendados{
         margin-top: 100px;
-        margin-bottom: -150px;
     }
     .cardCarousel .carousel-inner {
         width: 100%;
         margin-top: -200px;
     }
 
-    .cardCarousel .carousel-inner .img {
-        width: 275px;
-        height: 100%;
-        margin-bottom: -125px;
-    }
 
     .cardCarousel .carousel-inner img {
         margin-top: 0px;
     }
 
     .card {
-        height: 400px;
+        width: 100%;
     }
 
     .cardCarousel .carousel-inner img {
@@ -271,9 +279,9 @@ p {
     }
 }
 
-@media (max-width:429px) and (min-width:400px) {
+@media (max-width:429px){
     .card {
-        height: 450px;
+        height: 350px;
     }
 
     .cardCarousel {
@@ -281,15 +289,11 @@ p {
     }
 }
 
-@media (max-width:769px) {}
-
-.cardCarousel .carousel-control-prev {
-    margin-top: -100px;
+@media (max-width:769px) {
+    .carouselCartas{
+    }
 }
 
-.cardCarousel .carousel-control-next {
-    margin-top: -100px;
-}
 
 /*****************************************
 Procesadora KÁBATA CUADRO
@@ -639,7 +643,7 @@ Procesadora KÁBATA Loction
     color: #235931;
     padding: 10px;
     text-align: center;
-    margin-top: -50px;
+    margin-top: 50px;
 }@media (max-width: 600px){
     .social-bar{
         margin-top: 5px;
@@ -712,6 +716,7 @@ Tipos de Plantas
     }
 }
 @media (max-width: 668px) {
+    
     .planta{
         width:100%;
     }
