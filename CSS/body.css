@@ -12,6 +12,8 @@ body {
 }
 
 
+
+
 .c-item {
     height: 520px;
 }
@@ -210,15 +212,9 @@ p {
 
 @media (max-width:991px) and (min-width: 601px) {
     .cardCarousel {
-        margin-top: 600px;
+        margin-top: 200px;
         padding: 0px;
         margin-bottom: -200px;
-    }
-
-    #card1 {
-        margin-top: 0px;
-        width: 100%;
-
     }
 
     
@@ -327,8 +323,22 @@ Procesadora KÁBATA CUADRO
     left: 25px;
 }
 
+#dropdown-plantas{
+    width: 175px;
+}
+
 @media (max-width:767px) {
 .filtro{
+    text-align: center;
+}
+.dropdown button {
+    width: 100%;
+}
+#dropdown-plantas{
+    width: 100%;
+}
+.dropdown-plantas li{
+    text-align: center;
 }
 }
 
@@ -497,23 +507,9 @@ Procesadora KÁBATA CUADROs finales index
     }
 }
 
-@media (max-width:769px) and (min-width: 601px) {
-    .flip-card {
-        width: 90%;
-
-        margin-bottom: 275px;
-    }
-
-    #flipCard {
-        margin-top: 500px;
-        margin-bottom: 15px;
-    }
-
-}
 
 @media (min-width: 1025px) {
     .flip-card {
-        position: relative;
         left: -15px;
         width: 100%;
         margin-bottom: 450px;
@@ -526,7 +522,7 @@ Procesadora KÁBATA CUADROs finales index
     .flip-card {
         width: 90%;
         margin-top: 50px;
-        margin-bottom: 275px;
+        margin-bottom: 400px;
     }
 
     #flipCard {
@@ -670,6 +666,7 @@ Tipos de Plantas
     border-bottom: solid #235931;
 }
 .tituloTipoPlanta{
+    width: 70%;
     margin-top: 100px;
     margin-bottom: 15px;
 }
