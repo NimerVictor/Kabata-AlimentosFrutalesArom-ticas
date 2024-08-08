@@ -223,16 +223,23 @@ p {
         width: 100%;
     }
 }
-
+@media (min-width:1024px) {
+    #Recomendados{
+        margin-top: 150px;
+        margin-bottom: -100px;
+    }
+}
 @media (max-width:991px)  {
     .cardCarousel {
         margin-top: 200px;
         padding: 0px;
         margin-bottom: 200px;
     }
+    #Recomendados{
+        margin-bottom: -100px;
+    }
 
-    
-
+ 
     .cardCarousel .carousel-inner {
         width: 100%;
         margin-top: -200px;
@@ -288,13 +295,6 @@ p {
         margin-bottom: 75px;
     }
 }
-
-@media (max-width:769px) {
-    .carouselCartas{
-    }
-}
-
-
 /*****************************************
 Procesadora KÁBATA CUADRO
 ******************************************/
@@ -512,14 +512,13 @@ Procesadora KÁBATA CUADROs finales index
 }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .flip-card {
         left: -15px;
         width: 100%;
         margin-bottom: 450px;
     }
 
-    .flip-card .btn {}
 }
 
 @media (max-width: 1025px) {
@@ -530,12 +529,12 @@ Procesadora KÁBATA CUADROs finales index
     }
 
     #flipCard {
-        margin-top: 580px;
+        margin-top: 100px;
         margin-bottom: 15px;
     }
-}
-
-@media (max-width: 1024px) {
+    .btnTe{
+        margin-top: 35px;
+    }
     .flip-card .btn {
         width: 100%;
         position: relative;

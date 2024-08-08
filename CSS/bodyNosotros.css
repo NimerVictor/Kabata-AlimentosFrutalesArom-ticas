@@ -50,46 +50,43 @@ li {
     text-align: center;
 }
 
-@media (min-width:1023px) {
-    #imagenInfoUno {
-        position: relative;
-        left: 75px;
 
-    }
 
-    #imagenInfoUno img {
-        width: 76.5%;
-    }
-
-    #imagenInfoDos img {
-        width: 80%;
-    }
-
-    #imagenInfoDos {
-        position: relative;
-        left: 0PX;
-
-    }
-
-    .txtSecundario {
-        position: relative;
-        right: 70px;
-    }
-
-    .infoPrincipal .textoPrincipal {
-        position: relative;
-        left: 20px;
-    }
+#imagenInfoUno img {
+    width: 90%;
 }
+
+#imagenInfoDos img {
+    width: 90%;
+}
+
+#imagenInfoDos {
+
+
+}
+
+#imagenInfoUno {
+
+}
+
+.txtSecundario {
+    position: relative;
+    right: 70px;
+}
+
+.infoPrincipal .textoPrincipal {
+    position: relative;
+    left: 20px;
+}
+
 
 @media (max-width:769px) {
     #nosotros-Intro {
-
-        margin-top: 400px;
+        margin-top: 300px;
     }
 
     .infoPrincipal {
-        left: 50px;
+        left: 0px;
         margin-top: -50px;
     }
 
@@ -98,30 +95,21 @@ li {
     }
 
     #imagenInfoUno {
+        margin-top: 20px;
+        width: 98%;
         position: relative;
-        left: 120px;
-    }
-
-    #imagenInfoUno img {
-        width: 45%;
+        left: 4%;
     }
 
     .infoPrincipal .textoPrincipal {
-        position: relative;
         left: 0px;
     }
 
-    #imagenInfoDos img {
-        width: 50%;
-
-    }
-
     #imagenInfoDos {
-        position: relative;
 
-        left: 135px;
-        margin-bottom: 25px;
-
+        margin-top: -20px;
+        width: 105%;
+        margin-bottom: 50px;
     }
 
     .txtSecundario {
@@ -147,26 +135,22 @@ li {
         left: 0px;
     }
 
-    #imagenInfoUno {
-        position: relative;
-        left: 10px;
-    }
-
-    #imagenInfoUno img {
-        width: 100%;
-    }
-
     .infoPrincipal .textoPrincipal {
         position: relative;
         left: 10px;
     }
 
-    #imagenInfoDos img {
-        width: 100%;
+    #imagenInfoUno {
+        position: relative;
+        left: 10px;
+    }
 
+    #imagenInfoUno {
+        width: 142%;
     }
 
     #imagenInfoDos {
+        width: 125%;
         position: relative;
         left: 10px;
         margin-bottom: 25px;
