@@ -42,7 +42,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link  mx-lg-2 active" aria-current="page" href="AlimentoFrutalesAromaticos.html">Home</a>
+              <a class="nav-link  mx-lg-2 active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="Nosotros.html">Nosotros</a>
@@ -51,11 +51,14 @@
               <a class="nav-link  dropdown-toggle mx-lg-2" href="#" href="#" id="dropdownId" data-bs-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"><ion-icon name="leaf-outline"></ion-icon> Plantas</a>
               <div class="dropdown-menu menu-dark" aria-labelledby="dropdownId">
-                <a class="dropdown-item active " href="PlantasDigestivas.html">🌾 Plantas con propiedades Digestivas </a>
-                <a class="dropdown-item" href="PlantasTranquilizantes.html">🍃 Plantas con propiedades Tranquilizantes</a>
+                <a class="dropdown-item active " href="PlantasDigestivas.html">🌾 Plantas con propiedades Digestivas
+                </a>
+                <a class="dropdown-item" href="PlantasTranquilizantes.html">🍃 Plantas con propiedades
+                  Tranquilizantes</a>
                 <a class="dropdown-item" href="PlantasDiureticas.html">🌾 Plantas con propiedades diuréticas</a>
                 <a class="dropdown-item" href="PlantasEspectorante.html">🍃 Plantas con propiedades Espectorante</a>
-                <a class="dropdown-item" href="PlantasPurificantes.html">🌾 Plantas con propiedades Purificante de sangre</a>
+                <a class="dropdown-item" href="PlantasPurificantes.html">🌾 Plantas con propiedades Purificante de
+                  sangre</a>
               </div>
             </li>
             <li class="nav-item">
@@ -89,31 +92,32 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
   <div class="container-lg tituloTipoPlanta">
-        
+
     <br>
     <div class="container-fluid">
       <h2 class="text-center d-md-inline ">Plantas Espectorantes </h2>
-      <div class="mb-4 mb-md-0 float-md-end">
+      <div class="mb-4 mb-md-0 float-md-end float-center filtro">
         <div class="dropdown">
           <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-            Filtro
+            Propiedades
           </button>
-          <ul class="dropdown-menu">
-            <li class=""><a class="dropdown-item " href="#" onclick="registrarPlantas()" >Todos</a></li>
-            <li class=""><img class=" d-inline" src="../Imagenes/iconos/pastillas.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antiinflamatorio')">Antiinflamatorio</a></li>
-            <li class=""><img class=" d-inline" src="../Imagenes/iconos/engranaje.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antioxidante')">Antioxidante</button></a></li>
-            <li class=""><img class=" d-inline" src="../Imagenes/iconos/germenes.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antimicrobiana')">Antimicrobiana</a></li>
-            <li class=""><img class=" d-inline" src="../Imagenes/iconos/limon.png" alt="" style="width: 20px; height: 20px;"><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Vitaminico')" >Vitaminico</a></li>
+          <ul id="dropdown-plantas" class="dropdown-menu">
+            <li class=""><a class="dropdown-item " href="#" onclick="registrarPlantas()" ><ion-icon name="leaf-outline"></ion-icon> Todos</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antiinflamatorio')"><img class=" d-inline" src="../Imagenes/iconos/pastillas.png" alt="" style="width: 20px; height: 20px;"> Antiinflamatorio</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antioxidante')"><img class=" d-inline" src="../Imagenes/iconos/engranaje.png" alt="" style="width: 20px; height: 20px;"> Antioxidante</button></a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antimicrobiana')"><img class=" d-inline" src="../Imagenes/iconos/germenes.png" alt="" style="width: 20px; height: 20px;"> Antimicrobiana</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Vitaminico')" ><img class=" d-inline" src="../Imagenes/iconos/limon.png" alt="" style="width: 20px; height: 20px;"> Vitaminico</a></li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   </div>
   <div class="container-lg">
     <div id="container-plantas" class="row justify-content-center" accesskey="Espectorantes">
-    
+
     </div>
-    
+
   </div>
 
   <!--Boton de ir hacia arriba-->
@@ -153,8 +157,8 @@
         <div class="info-footer col-md-3  ">
           <p>Contacto</p>
           <a class="So" href="mailto:kabatatea@gmail.com">Gmail: kabatatea@gmail.com</a>
-          <a class="So" href="">Teléfono:+506 24420626 - 24400741</a>
-          <a class="So" href="">Responsable: Ing. Alberto Moreno G.</a>
+          <a class="So" href="">Teléfono:+506 86266461 - 83809255</a>
+          <a class="So" href="">Ing. Alberto Moreno G.</a>
 
         </div>
         <br>
@@ -180,7 +184,7 @@
         </div>
       </div>
     </div>
- 
+
 
   </footer>
   <!--Scripts -->

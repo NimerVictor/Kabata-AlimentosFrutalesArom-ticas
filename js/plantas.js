@@ -28,8 +28,8 @@ function registrarPlantas(){
                       <img src="${planta.Imagen}" alt="...">
             </div>
             <div class="card-body ali plant-title">
-                      <h5 class="card-title">${planta.Nombre}</h5>
-                      <p class="card-text">Propiedades: ${propiedades}</p>
+                      <h5 class="card-title text-uppercase fs-6 fw-bold  ">${planta.Nombre}</h5>
+                      <p class="card-text  ">Propiedades: ${propiedades}</p>
             </div>
             
           </div>

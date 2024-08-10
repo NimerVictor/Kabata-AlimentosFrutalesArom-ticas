@@ -534,7 +534,7 @@ Procesadora KÁBATA CUADROs finales index
         left: -15px;
         width: 100%;
         margin-bottom: 400px;
-        padding: 20px;
+        padding: 10px;
         max-height: 100%;
     }
     .flip-card-back {
@@ -547,7 +547,8 @@ Procesadora KÁBATA CUADROs finales index
     .flip-card .card{
         width: 150%;
         margin: 0;
-        left: 0;
+        padding: 20px;
+
     }
 }
 
