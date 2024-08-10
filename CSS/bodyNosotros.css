@@ -119,8 +119,15 @@ li {
 }
 
 @media (max-width:600px) {
+    #flipCards .card{
 
-
+        width: 120%;
+        margin: 0;
+        left: 0;
+    }
+    #flipCards .flip-card{
+        margin-top: -25px;
+    }
     #nosotros-Intro {
         left: 0px;
         margin-top: 220px;
@@ -146,11 +153,11 @@ li {
     }
 
     #imagenInfoUno {
-        width: 142%;
+        width: 100%;
     }
 
     #imagenInfoDos {
-        width: 125%;
+        width: 100%;
         position: relative;
         left: 10px;
         margin-bottom: 25px;
@@ -239,7 +246,7 @@ h4 {
         Video
 *************************/
 .video {
-    margin-top: -400px;
+    margin-top: -300px;
 }
 
 .video .container {
@@ -247,16 +254,10 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    .video .container iframe {
+    .video iframe {
         width: 110%;
     }
 
-}
-
-@media (max-width:1024px) and (min-width: 769px) {
-    .video {
-        margin-top: -50px;
-    }
 }
 
 

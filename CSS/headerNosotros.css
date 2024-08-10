@@ -31,6 +31,8 @@
 
 @media (max-width:769px) {
     #cuadroNosotros .blur-background {
+        max-width:100%;
+        margin: 0px;
         margin-bottom: -200px;
     }
 

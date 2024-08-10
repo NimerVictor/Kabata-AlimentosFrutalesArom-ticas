@@ -83,8 +83,8 @@ Card
 
     .image-wrapped {
         margin-top: 5px;
-        
-        display: flex;  
+
+        display: flex;
         margin: 0 auto;
     }
 
@@ -93,8 +93,8 @@ Card
 @media screen and (Max-width: 768px) {
     .image-wrapped {
         margin-top: 5px;
-        
-        display: flex;  
+
+        display: flex;
         margin: 0 auto;
     }
 }
@@ -104,15 +104,16 @@ Card
         display: none;
     }
 
-   
+
 
 }
-#carouselExampleControlsSmallScreen{
+
+#carouselExampleControlsSmallScreen {
     width: 100%;
 }
 
-.carouselCartas{
-     width: 68%;
+.carouselCartas {
+    width: 68%;
 }
 
 .image-wrapped img {
@@ -120,7 +121,7 @@ Card
     max-height: 200px;
     border-radius: 50%;
     padding-top: 15px;
-    
+
 }
 
 .ali .image-wrapped img {
@@ -134,43 +135,7 @@ Card
 Cuadro principal s
 
 *************************************************/
-#card1 {
-    margin-top: 50px;
-    padding: 0px;
-    width: 100%;
-    border: 1px;
-    border-style: hidden;
-    border-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    height: 100%;
-    left: 50px;
-}
 
-#card1:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-#card1-header {
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #fff;
-    text-align: center;
-
-}
-
-#card1-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-#card1-price {
-    font-size: 1.5rem;
-    color: #000;
-    font-weight: bold;
-}
 
 .card-body h5,
 p {
@@ -178,22 +143,24 @@ p {
 }
 
 .card-body .btn {
-    display: flex;
-    justify-content: center;
+
     background-color: #3d8650;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 70%;
     color: #fff;
+
 }
 
 .cardCarousel .carousel-inner {
     width: 100%;
-    margin-top: -200px;
+    margin-top: 50px;
+
 }
 
 .cardCarousel {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: -100px;
+    margin-bottom: 250px;
 }
 
 #cardTe {
@@ -211,9 +178,7 @@ p {
 .cardCarousel .carousel-inner img {
     margin-top: 15px;
 }
-#Recomendados{
-    margin-bottom: 20px;
-}
+
 @media (min-width:1000px) {
     .card {
         height: 375px;
@@ -222,24 +187,31 @@ p {
     .cardCarousel .carousel-inner {
         width: 100%;
     }
+
+    #Recomendados {
+        margin-bottom: -100px;
+    }
 }
+
 @media (min-width:1024px) {
-    #Recomendados{
+    #Recomendados {
         margin-top: 150px;
         margin-bottom: -100px;
     }
 }
-@media (max-width:991px)  {
+
+@media (max-width:991px) {
     .cardCarousel {
-        margin-top: 200px;
+        margin-top: 50px;
         padding: 0px;
-        margin-bottom: 200px;
+        margin-bottom: -200px;
     }
-    #Recomendados{
+
+    #Recomendados {
         margin-bottom: -100px;
     }
 
- 
+
     .cardCarousel .carousel-inner {
         width: 100%;
         margin-top: -200px;
@@ -260,12 +232,15 @@ p {
         margin-bottom: 30px;
 
     }
-    .carouselCartas{
+
+    .carouselCartas {
         width: 100%;
     }
-    #Recomendados{
+
+    #Recomendados {
         margin-top: 100px;
     }
+
     .cardCarousel .carousel-inner {
         width: 100%;
         margin-top: -200px;
@@ -286,7 +261,7 @@ p {
     }
 }
 
-@media (max-width:429px){
+@media (max-width:429px) {
     .card {
         height: 350px;
     }
@@ -295,6 +270,7 @@ p {
         margin-bottom: 75px;
     }
 }
+
 /*****************************************
 Procesadora KÁBATA CUADRO
 ******************************************/
@@ -327,23 +303,26 @@ Procesadora KÁBATA CUADRO
     left: 25px;
 }
 
-#dropdown-plantas{
+#dropdown-plantas {
     width: 175px;
 }
 
 @media (max-width:767px) {
-.filtro{
-    text-align: center;
-}
-.dropdown button {
-    width: 100%;
-}
-#dropdown-plantas{
-    width: 100%;
-}
-.dropdown-plantas li{
-    text-align: center;
-}
+    .filtro {
+        text-align: center;
+    }
+
+    .dropdown button {
+        width: 100%;
+    }
+
+    #dropdown-plantas {
+        width: 100%;
+    }
+
+    .dropdown-plantas li {
+        text-align: center;
+    }
 }
 
 @media (max-width:991px) and (max-width:770px) {
@@ -379,13 +358,14 @@ Procesadora KÁBATA CUADRO
     }
 }
 
-@media (max-width:769px) and (min-width:605px) {
+@media (max-width:769px) {
     .kabataCuadro .container-fluid {
         margin-bottom: 100px;
+        display: flex;
     }
 
     #contenedorTerciario {
-        width: 70%;
+        width: 100%;
         position: relative;
         top: 35px;
         left: 100px;
@@ -440,7 +420,6 @@ Procesadora KÁBATA CUADROs finales index
     margin-top: 50px;
     margin-bottom: 15px;
 }
-
 #flipCards {
     margin-top: 100px;
     margin-bottom: 400px;
@@ -450,9 +429,19 @@ Procesadora KÁBATA CUADROs finales index
     perspective: 1000px;
     margin: 20px;
 }
-
+#flipCard .container-lg{
+    margin-bottom: -50px;
+}
 .flip-card .card {
-    width: 100%;
+    width: 105%;
+    height: 350px;
+}
+
+.flip-card .btn {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 70%;
+
 }
 
 .flip-card-inner {
@@ -496,26 +485,12 @@ Procesadora KÁBATA CUADROs finales index
     background-color: #c4db65;
 }
 
-@media (max-width: 600px) {
-    .flip-card {
-        position: relative;
-        left: -15px;
-        width: 100%;
-        margin-bottom: 400px;
-        padding: 20px;
-    }
-
-    #flipCard {
-        margin-top: 550px;
-        margin-bottom: 15px;
-    }
-}
 
 
 @media (min-width: 1024px) {
     .flip-card {
         left: -15px;
-        width: 100%;
+        width: 105%;
         margin-bottom: 450px;
     }
 
@@ -532,13 +507,15 @@ Procesadora KÁBATA CUADROs finales index
         margin-top: 100px;
         margin-bottom: 15px;
     }
-    .btnTe{
+
+    .btnTe {
         margin-top: 35px;
     }
+
     .flip-card .btn {
         width: 100%;
-        position: relative;
-        right: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .flip-card-back .card-body {
@@ -551,6 +528,56 @@ Procesadora KÁBATA CUADROs finales index
         left: 0px;
     }
 }
+@media (max-width: 600px) {
+    .flip-card {
+        position: relative;
+        left: -15px;
+        width: 100%;
+        margin-bottom: 400px;
+        padding: 20px;
+        max-height: 100%;
+    }
+    .flip-card-back {
+        max-height: 100%;
+    }
+    #flipCard {
+        margin-top: 550px;
+        margin-bottom: 0px;
+    }
+    .flip-card .card{
+        width: 150%;
+        margin: 0;
+        left: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .flip-card {
+        width: 90%;
+        padding-bottom: 20px;
+        margin-bottom: 375px;
+        display: flex;
+    }
+    .btnTe{
+        margin-top: -10px;
+    }
+    #flipCard {
+        margin-top: 550px;
+        margin-bottom: 15px;
+    }
+    .flip-card .image-wrapped{
+        margin-top: -20px;
+        justify-content: center;
+    }
+    .flip-card-back .card-title {
+        margin-top: 100px;
+        position: relative;
+        left: 10px;
+    }
+    
+
+}
+
 
 /*****************************************
 Procesadora KÁBATA Loction
@@ -638,16 +665,20 @@ Procesadora KÁBATA Loction
         left: 0;
     }
 }
+
 .social-bar {
     color: #235931;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
-}@media (max-width: 600px){
-    .social-bar{
+}
+
+@media (max-width: 600px) {
+    .social-bar {
         margin-top: 5px;
     }
 }
+
 .social-bar a {
     color: #333;
     margin: 0 10px;
@@ -660,49 +691,53 @@ Procesadora KÁBATA Loction
 Tipos de Plantas
 ******************************************/
 
-.caja{
+.caja {
     border: none;
     background-color: #f3f3f3;
     border-bottom: solid #727272;
 }
-.caja:hover{
+
+.caja:hover {
     border-bottom: solid #235931;
 }
-.tituloTipoPlanta{
+
+.tituloTipoPlanta {
     width: 70%;
     margin-top: 100px;
     margin-bottom: 15px;
 }
-#container-plantas{
+
+#container-plantas {
     width: 90%;
     margin: 0 auto;
 }
 
-.planta{
+.planta {
     width: 33%;
     height: auto;
     margin: 5px auto;
 }
 
-.title-plantas p{
+.title-plantas p {
     font-size: large;
 }
 
-.title-plantas p:first-child{
+.title-plantas p:first-child {
     margin-top: 10px;
     font-size: larger;
 }
 
-.cardplantas{
+.cardplantas {
     margin-top: 20px;
 }
 
-.planta .card{
+.planta .card {
     width: 100%;
     height: 400px;
     margin-top: 10px;
 }
-.planta .card .image-wrapped img{
+
+.planta .card .image-wrapped img {
     margin-top: 10px;
     width: 200px;
     height: 200px;
@@ -710,20 +745,23 @@ Tipos de Plantas
 }
 
 @media (max-width: 850px) {
-    .planta{
+    .planta {
         width: 50%;
     }
 }
+
 @media (max-width: 668px) {
-    
-    .planta{
-        width:100%;
+
+    .planta {
+        width: 100%;
     }
-    .card .image-wrapped img{
+
+    .card .image-wrapped img {
         display: flex;
         margin: 0 auto;
     }
-    .planta .card .image-wrapped{
+
+    .planta .card .image-wrapped {
         margin-top: 10px;
     }
 }
