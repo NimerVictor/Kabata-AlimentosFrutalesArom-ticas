@@ -20,7 +20,6 @@ function registrarPlantas(){
             propiedades+= element + ".";
           }
         });
-
         html = `
         <div class=" planta">
           <div class="card">
@@ -84,10 +83,8 @@ function FiltroPlantas(filtro){
       if (acesso == true) {
         container_plantas.innerHTML += html;
         acesso = false
+      }   
       }
-      
-      }
-    });
-    
+    });   
   })
 }
