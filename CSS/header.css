@@ -63,10 +63,7 @@ Header
     .search-item .search-button ion-icon {
         display: none;
     }
-    .menu-dark {
-        width:120%;
-        
-    }
+   
 }
 @media (max-width:991px){
     .navbar{
