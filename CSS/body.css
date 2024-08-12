@@ -582,6 +582,7 @@ Procesadora KÁBATA CUADROs finales index
     }
     #flipCards .flip-card{
         margin-bottom: 375px;
+        left: -45px;
     }
     .flip-card-back {
         max-height: 100%;

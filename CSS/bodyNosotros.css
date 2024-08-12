@@ -257,7 +257,7 @@ h4 {
 
 @media (max-width: 768px) {
     .video iframe {
-        width: 110%;
+        width: 100%;
     }
 
 }
