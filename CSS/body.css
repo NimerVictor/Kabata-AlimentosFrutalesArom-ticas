@@ -44,6 +44,10 @@ Card
 
 }
 
+.carouselCartas{
+    
+}
+
 .cardCarousel .carousel-inner {
     padding: 1em;
 }
@@ -113,7 +117,10 @@ Card
 }
 
 .carouselCartas {
-    width: 68%;
+    width: 100%;
+}
+.carousel{
+    width: 100%;
 }
 
 .image-wrapped img {
@@ -159,8 +166,8 @@ p {
 }
 
 .cardCarousel {
-    margin-top: -100px;
-    margin-bottom: 250px;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 #cardTe {
@@ -187,10 +194,6 @@ p {
     .cardCarousel .carousel-inner {
         width: 100%;
     }
-
-    #Recomendados {
-        margin-bottom: -100px;
-    }
 }
 
 @media (min-width:1024px) {
@@ -202,9 +205,9 @@ p {
 
 @media (max-width:991px) {
     .cardCarousel {
-        margin-top: 50px;
+        margin-top: 200px;
         padding: 0px;
-        margin-bottom: -200px;
+        margin-bottom: 200px;
     }
 
     #Recomendados {
@@ -234,7 +237,7 @@ p {
     }
 
     .carouselCartas {
-        width: 100%;
+        width: 90%;
     }
 
     #Recomendados {
@@ -246,14 +249,19 @@ p {
         margin-top: -200px;
     }
 
+    .card-body .btn{
+        text-align: center;
+    }
 
     .cardCarousel .carousel-inner img {
         margin-top: 0px;
     }
 
     .card {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
+
 
     .cardCarousel .carousel-inner img {
         width: 100%;
