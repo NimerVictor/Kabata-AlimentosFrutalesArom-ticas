@@ -530,33 +530,6 @@ Procesadora KÁBATA CUADROs finales index
     }
 }
 
-@media (max-width: 600px) {
-    .flip-card {
-        position: relative;
-        left: -15px;
-        width: 90%;
-        margin-bottom: 350px;
-        padding: 10px;
-        max-height: 100%;
-    }
-
-    .flip-card-back {
-        max-height: 100%;
-    }
-
-    #flipCard {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    .flip-card .card {
-        width: 110%;
-        margin: 0;
-        padding: 20px;
-
-
-    }
-}
 
 @media (max-width:1000px) {
     .flip-card {
@@ -586,6 +559,46 @@ Procesadora KÁBATA CUADROs finales index
         left: 10px;
     }
 
+
+}
+
+@media (max-width: 600px) {
+    
+    #flipCard {
+        margin-top: 550px;
+        margin-bottom: 0px;
+    }
+    #flipCard .container-lg{
+        margin-bottom: -100px;
+    }
+    .flip-card {
+        position: relative;
+        left: -45px;
+        width: 100%;
+        margin-bottom: 285px;
+        padding: 10px;
+        max-height: 100%;
+    }
+    #flipCards .flip-card{
+        margin-bottom: 375px;
+    }
+    .flip-card-back {
+        max-height: 100%;
+    }
+
+
+    .flip-card .card {
+        width: 110%;
+        margin: 0;
+        padding: 20px;
+
+
+    }
+    .flip-card-back .card-title {
+        margin-top: 0px;
+        position: relative;
+        left: 10px;
+    }
 
 }
 

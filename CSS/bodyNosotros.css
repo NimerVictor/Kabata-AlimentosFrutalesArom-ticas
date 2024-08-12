@@ -106,9 +106,10 @@ li {
     }
 
     #imagenInfoDos {
-
+        position: relative;
+        left: 4%;
         margin-top: -20px;
-        width: 105%;
+        width: 98%;
         margin-bottom: 50px;
     }
 
