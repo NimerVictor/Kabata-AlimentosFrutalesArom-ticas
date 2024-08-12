@@ -14,7 +14,7 @@
     width: 100%;
     height: auto;
 
-    filter: blur(2px);
+    filter: blur(0px);
     transform: scale(1.1);
 
 }
