@@ -123,12 +123,16 @@ li {
 @media (max-width:600px) {
     #flipCards .card{
 
-        width: 120%;
+        width: 110%;
         margin: 0;
         left: 0;
     }
     #flipCards .flip-card{
         margin-top: -25px;
+    }
+    #flipCards .flip-card{
+        margin-bottom: 375px;
+        left: -25px;
     }
     #nosotros-Intro {
         left: 0px;
