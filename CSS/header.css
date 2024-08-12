@@ -25,6 +25,7 @@ Header
 .search-item .search-button::after {
     content: '';
 }
+
 /* Mostrar texto en pantallas pequeñas */
 @media (max-width: 800px) {
     .login-item .login-button::after {
@@ -61,6 +62,10 @@ Header
     .login-item .login-button ion-icon,
     .search-item .search-button ion-icon {
         display: none;
+    }
+    .menu-dark {
+        width:120%;
+        
     }
 }
 @media (max-width:991px){
