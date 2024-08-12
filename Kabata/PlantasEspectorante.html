@@ -30,7 +30,7 @@
   <!--  Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top  ">
     <div class="container-lg">
-      <a class="navbar-brand me-auto" href="AlimentoFrutalesAromaticos.html">
+      <a class="navbar-brand me-auto" href="../index.html">
         <img src="../Imagenes/Logo_Kabata-transformed.png" alt="Kabata" width="100%" height="mx-lg-2"
           class="d-inline-block align-text-top" id="NavLogo">
       </a>
@@ -42,7 +42,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link  mx-lg-2 active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link  mx-lg-2 active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="Nosotros.html">Nosotros</a>
@@ -50,13 +50,16 @@
             <li class="nav-item dropdown-center">
               <a class="nav-link  dropdown-toggle mx-lg-2" href="#" href="#" id="dropdownId" data-bs-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"><ion-icon name="leaf-outline"></ion-icon> Plantas</a>
-                <div class="dropdown-menu menu-dark" aria-labelledby="dropdownId">
-                  <a class="dropdown-item active " href="PlantasDigestivas.html">🌾 Plantas con propiedades Digestivas </a>
-                  <a class="dropdown-item" href="PlantasTranquilizantes.html">🍃 Plantas con propiedades Tranquilizantes</a>
-                  <a class="dropdown-item" href="PlantasDiureticas.html">🌾 Plantas con propiedades diuréticas</a>
-                  <a class="dropdown-item" href="PlantasEspectorante.html">🍃 Plantas con propiedades Espectorante</a>
-                  <a class="dropdown-item" href="PlantasPurificantes.html">🌾 Plantas con propiedades Purificante de sangre</a>
-                </div>
+              <div class="dropdown-menu menu-dark" aria-labelledby="dropdownId">
+                <a class="dropdown-item active " href="PlantasDigestivas.html">🌾 Plantas con propiedades Digestivas
+                </a>
+                <a class="dropdown-item" href="PlantasTranquilizantes.html">🍃 Plantas con propiedades
+                  Tranquilizantes</a>
+                <a class="dropdown-item" href="PlantasDiureticas.html">🌾 Plantas con propiedades diuréticas</a>
+                <a class="dropdown-item" href="PlantasEspectorante.html">🍃 Plantas con propiedades Espectorante</a>
+                <a class="dropdown-item" href="PlantasPurificantes.html">🌾 Plantas con propiedades Purificante de
+                  sangre</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="#">Novedades</a>
@@ -71,10 +74,8 @@
             <li class="nav-item search-item">
               <a href="" class="search-button nav-link mx-lg-2"><ion-icon name="search-outline"></ion-icon>
               </a>
-
             </li>
           </ul>
-
         </div>
       </div>
       <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -89,31 +90,41 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
   <div class="container-lg tituloTipoPlanta">
-        
+
     <br>
     <div class="container-fluid">
-      <h2 class="text-center d-md-inline ">Plantas Diurecticas </h2>
+      <h2 class="text-center d-md-inline ">Plantas Espectorantes </h2>
       <div class="mb-4 mb-md-0 float-md-end float-center filtro">
         <div class="dropdown">
           <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
             Propiedades
           </button>
           <ul id="dropdown-plantas" class="dropdown-menu">
-            <li class=""><a class="dropdown-item " href="#" onclick="registrarPlantas()" ><ion-icon name="leaf-outline"></ion-icon> Todos</a></li>
-            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antiinflamatorio')"><img class=" d-inline" src="../Imagenes/iconos/pastillas.png" alt="" style="width: 20px; height: 20px;"> Antiinflamatorio</a></li>
-            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antioxidante')"><img class=" d-inline" src="../Imagenes/iconos/engranaje.png" alt="" style="width: 20px; height: 20px;"> Antioxidante</button></a></li>
-            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antimicrobiana')"><img class=" d-inline" src="../Imagenes/iconos/germenes.png" alt="" style="width: 20px; height: 20px;"> Antimicrobiana</a></li>
-            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Vitaminico')" ><img class=" d-inline" src="../Imagenes/iconos/limon.png" alt="" style="width: 20px; height: 20px;"> Vitaminico</a></li>
+            <li class=""><a class="dropdown-item " href="#" onclick="registrarPlantas()"><ion-icon
+                  name="leaf-outline"></ion-icon> Todos</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antiinflamatorio')"><img
+                  class=" d-inline" src="../Imagenes/iconos/pastillas.png" alt="" style="width: 20px; height: 20px;">
+                Antiinflamatorio</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antioxidante')"><img
+                  class=" d-inline" src="../Imagenes/iconos/engranaje.png" alt="" style="width: 20px; height: 20px;">
+                Antioxidante</button></a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Antimicrobiana')"><img
+                  class=" d-inline" src="../Imagenes/iconos/germenes.png" alt="" style="width: 20px; height: 20px;">
+                Antimicrobiana</a></li>
+            <li class=""><a class="dropdown-item d-inline" href="#" onclick="FiltroPlantas('Vitaminico')"><img
+                  class=" d-inline" src="../Imagenes/iconos/limon.png" alt="" style="width: 20px; height: 20px;">
+                Vitaminico</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <div class="container-lg">
-    <div id="container-plantas" class="row justify-content-center" accesskey="Diurecticas">
-    
+    <div id="container-plantas" class="row justify-content-center" accesskey="Espectorantes">
+
     </div>
-    
+
   </div>
 
   <!--Boton de ir hacia arriba-->
@@ -180,7 +191,7 @@
         </div>
       </div>
     </div>
- 
+
 
   </footer>
   <!--Scripts -->
