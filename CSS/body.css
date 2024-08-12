@@ -168,7 +168,7 @@ p {
 }
 
 .btnTe {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .cardCarousel .carousel-inner .img {
@@ -208,7 +208,7 @@ p {
     }
 
     #Recomendados {
-        margin-bottom: -100px;
+        margin-bottom: 20px;
     }
 
 
@@ -420,6 +420,7 @@ Procesadora KÁBATA CUADROs finales index
     margin-top: 50px;
     margin-bottom: 15px;
 }
+
 #flipCards {
     margin-top: 100px;
     margin-bottom: 400px;
@@ -429,9 +430,11 @@ Procesadora KÁBATA CUADROs finales index
     perspective: 1000px;
     margin: 20px;
 }
-#flipCard .container-lg{
+
+#flipCard .container-lg {
     margin-bottom: -50px;
 }
+
 .flip-card .card {
     width: 105%;
     height: 350px;
@@ -485,8 +488,6 @@ Procesadora KÁBATA CUADROs finales index
     background-color: #c4db65;
 }
 
-
-
 @media (min-width: 1024px) {
     .flip-card {
         left: -15px;
@@ -528,26 +529,31 @@ Procesadora KÁBATA CUADROs finales index
         left: 0px;
     }
 }
+
 @media (max-width: 600px) {
     .flip-card {
         position: relative;
         left: -15px;
-        width: 100%;
-        margin-bottom: 400px;
+        width: 90%;
+        margin-bottom: 350px;
         padding: 10px;
         max-height: 100%;
     }
+
     .flip-card-back {
         max-height: 100%;
     }
+
     #flipCard {
-        margin-top: 550px;
+        margin-top: 0px;
         margin-bottom: 0px;
     }
-    .flip-card .card{
-        width: 150%;
+
+    .flip-card .card {
+        width: 110%;
         margin: 0;
         padding: 20px;
+
 
     }
 }
@@ -559,23 +565,27 @@ Procesadora KÁBATA CUADROs finales index
         margin-bottom: 375px;
         display: flex;
     }
-    .btnTe{
+
+    .btnTe {
         margin-top: -10px;
     }
+
     #flipCard {
         margin-top: 550px;
         margin-bottom: 15px;
     }
-    .flip-card .image-wrapped{
+
+    .flip-card .image-wrapped {
         margin-top: -20px;
         justify-content: center;
     }
+
     .flip-card-back .card-title {
         margin-top: 100px;
         position: relative;
         left: 10px;
     }
-    
+
 
 }
 
