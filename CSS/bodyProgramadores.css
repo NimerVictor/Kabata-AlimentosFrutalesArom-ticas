@@ -7,3 +7,9 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+@media screen and (max-width:600px) {
+    #prograIntro{
+        margin-top: 220px;
+    }
+    
+}
